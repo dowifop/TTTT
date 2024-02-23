@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1b2e59589284cf89ed6573133041043" Name="Diagram1">
+        <EntityTypeShape EntityType="QlyTheThaoModel.ChucVu" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.DichVu" Width="1.5" PointX="7.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.DichVuDaDat" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.HoaDonT" Width="1.5" PointX="7.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.KhachHang" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.LoaiSan" Width="1.5" PointX="1.5" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.NhanVien" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.PhieuThueSan" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.PhongBan" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.San" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.SuKien" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.tinhTrangHD" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.tinhTrangPT" Width="1.5" PointX="0.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.TinhTrangSan" Width="1.5" PointX="1.5" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QlyTheThaoModel.TinNhan" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__NhanVien__maCV__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__DichVuDaD__ma_dv__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__DichVuDaD__maHDT__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__HoaDonTS__maNV__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__HoaDonTS__maPT__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__HoaDonTS__maTinh__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__PhieuThueS__maKH__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__SuKien__maKH__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__TinNhan__ma_kh__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__San__LoaiSan__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__NhanVien__maPH__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__NhanVien__maSK__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__PhieuThueS__maNV__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__PhieuThue__maSan__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__PhieuThue__maTin__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__San__maTinhTrang__4F7CD00D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
