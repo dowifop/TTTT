@@ -75,6 +75,8 @@ CREATE TABLE LoaiSan
   PRIMARY KEY (Loai_San)
 );
 
+
+
 CREATE TABLE TinNhan
 (
   id int IDENTITY(1,1) NOT NULL,
@@ -135,6 +137,9 @@ CREATE TABLE PhieuThueSan
   FOREIGN KEY (maKH) REFERENCES KhachHang(maKH),
   FOREIGN KEY (maTinhTrang) REFERENCES tinhTrangPT(maTinhTrang)
 );
+
+
+
 
 CREATE TABLE HoaDonTS
 (
@@ -201,12 +206,20 @@ insert into tinhTrangPT values (N'Đã thanh toán')
 insert into tinhTrangHD values (N'Chưa thanh toán')
 insert into tinhTrangHD values (N'Đã thanh toán')
 
-insert into LoaiSan values(N'Sân bóng đá', 120000, '/Content/Home/hình/bg sân.png')
-insert into LoaiSan values(N'Hồ bơi', 50000, '/Content/Home/hình/bg hồ bơi.png')
-insert into LoaiSan values(N'Nhà thi đấu', 200000, '/Content/Home/hình/bg nhà thi đấu.png')
+insert into LoaiSan values(N'Sân bóng đá', 120000, '/Content/Home/hinh/bgsan.png')
+insert into LoaiSan values(N'Hồ bơi', 50000, '/Content/Home/hình/bghoboi.png')
+insert into LoaiSan values(N'Nhà thi đấu', 200000, '/Content/Home/hình/bgnhathidau.png')
+
 
 insert into San values('BD01', 1,1)
 insert into San values('HB02', 2,1)
 insert into San values('NTD01', 3,1)
 select * from San
 select * from KhachHang
+
+insert into DichVu values(N'Trà đá',20000,'/Content/Home/hinh/DichVu/TraDa1.png',99)
+insert into DichVu values(N'Pepsi',10000,'/Content/Home/hinh/DichVu/Pepsi1.png',59)
+insert into DichVu values(N'CocaCola',30000,'/Content/Home/hinh/DichVu/CocaCola1.png',69)
+insert into DichVu values(N'Nước suối',10000,'/Content/Home/hinh/DichVu/NuocSuoi.png',19)
+insert into DichVu values(N'RedBull',15000,'/Content/Home/hinh/DichVu/RedBull.png',39)
+select *from DichVu
