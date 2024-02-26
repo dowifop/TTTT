@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Danh sách gọi dịch vụ";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using QLTT.Models
+@model List<HoaDonT>
+
+<!-- SSS -->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Quản Lý</a>
+    </li>
+    <li class="breadcrumb-item active">Dashboard</li>
+</ol>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> List Sân
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+
+            <!-- /SSS -->
+            <table class="table table-bordered table-striped table-hover" id="dataTable" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Số sân</th>
+                        <th>Loại sân</th>
+                        <th>Ngày thuê</th>
+                        <th>Số giờ thuê</th>
+                        <th>Tình trạng</th>
+                        <th>Lựa Chọn</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Số sân</th>
+                        <th>Loại sân</th>
+                        <th>Ngày thuê</th>
+                        <th>Số giờ thuê</th>
+                        <th>Tình trạng</th>
+                        <th>Lựa Chọn</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                            <td>@item.PhieuThueSan.San.maSoSan</td>
+                            <td>@item.PhieuThueSan.San.LoaiSan1.moTa</td>
+                            <td>@item.PhieuThueSan.NgayThue</td>
+                            <td>@item.PhieuThueSan.soGioThue</td>
+                            <td><span class="badge badge-danger badge-g">@item.PhieuThueSan.San.TinhTrangSan.mota</span></td>
+                            <td><a href="@Url.Action("GoiDichVu","HoaDon",new { id = item.maHDTS})"><button type="button" class="btn btn-primary badge-g">Gọi dịch vụ</button></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted">Updated yesterday at ... PM</div>
+</div>

@@ -1,0 +1,96 @@
+﻿@model IEnumerable<QLTT.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Danh sách nhân viên";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        @Html.ActionLink("Admin", "Index")
+    </li>
+    <li class="breadcrumb-item active">Danh sách nhân viên</li>
+</ol>
+<p>
+    @Html.ActionLink("Thêm nhân viên", "Create")
+</p>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> Danh sách nhân viên
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+
+            <table class="table table-bordered table-striped table-hover" id="dataTable" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Họ tên
+                        </th>
+                        <th>
+                            Ngày sinh
+                        </th>
+                        <th>
+                            Địa chỉ
+                        </th>
+                        <th>
+                            SĐT
+                        </th>
+                        <th>
+                            Tài khoản
+                        </th>
+                        <th>
+                            Mật Khẩu
+                        </th>
+                        <th>
+                            Chức vụ
+                        </th>
+                        @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
+                        {
+                            <th></th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.hotenNV)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.dobNV)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.diaChiNV)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.sdtNV)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.taiKhoan)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.matKhau)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ChucVu.tenCV)
+                            </td>
+                            @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
+
+                            {
+                                <td>
+                                    @Html.ActionLink("Sửa", "edit", new { id = item.maNV }) |
+                                    @Html.ActionLink("Chi Tiết", "details", new { id = item.maNV }) |
+                                    @Html.ActionLink("Xóa", "Delete", new { id = item.maNV })
+
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted">Updated yesterday at @DateTime.Now</div>
+</div>

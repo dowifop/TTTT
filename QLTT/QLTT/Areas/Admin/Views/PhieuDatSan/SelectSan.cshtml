@@ -1,0 +1,135 @@
+﻿@model QLTT.Models.PhieuThueSan
+
+@{
+    ViewBag.Title = "Đặt Sân";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Quản Lý</a>
+    </li>
+    <li class="breadcrumb-item active">Thêm Phiếu Thuê Cơ Sở Vật Chất</li>
+</ol>
+<p>
+    <a href="@Url.Action("Add","KhachHang")">Thêm Tài khoản khách hàng</a>
+</p>
+@using (Html.BeginForm("Create", "PhieuDatSan"))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-3">
+                    <label class="radio-inline" style="margin-left:40px">
+                        @*<input type="radio" name="radSelect" id="rad1" value="rad1" checked="checked">*@
+                        @Html.RadioButton("radSelect", "rad1", new { @checked = "checked" }) Có tài khoản
+                    </label>
+                </div>
+                <div class="col-md-3">
+                    <label class="radio-inline">
+                        @*<input type="radio" name="radSelect" id="rad2" value="rad2">*@
+                        @Html.RadioButton("radSelect", "rad2")Đăng ký nhanh
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group" id="boxUser">
+            @Html.Label("Username", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("maKH", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.maKH, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div id="boxKH" class="hidden">
+            <div class="form-group">
+                @Html.Label("Họ tên", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("hotenKH", null, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Địa Chỉ", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("diaChiKH", null, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Email", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("emailKH", null, new { @class = "form-control", type = "number" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Số ĐT", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("sdtKH", null, new { @class = "form-control" })
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            @Html.Label("Ngày thuê", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("NgayThue", DateTime.Now, new { @class = "form-control", @readonly = "readonly" })
+                @Html.ValidationMessageFor(model => model.NgayThue, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Số giờ thuê", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("soGioThue", null, new { @class = "form-control", @readonly = "readonly" })
+                @Html.ValidationMessageFor(model => model.soGioThue, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        @{
+            if (ViewBag.select_maSan == null)
+            {
+                <div class="form-group">
+                    @Html.Label("Số sân", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("maSan", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.maSan, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    @Html.Label("Số sân", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBox("maSan", (int)ViewBag.select_maSan, htmlAttributes: new { @class = "form-control", @readonly = "readonly" })
+                    </div>
+                </div>
+            }
+        }
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Đặt sân" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="@Url.Action("FindRoom","Index")">Back</a>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('input[type=radio][name=radSelect]').change(function () {
+            if (this.value == 'rad1') {
+                $('#boxUser').show();
+                $('#boxKH').hide();
+            }
+            else if (this.value == 'rad2') {
+                $('#boxUser').hide();
+                $('#boxKH').show();
+            }
+        });
+    });
+</script>

@@ -1,0 +1,83 @@
+﻿details @model QLTT.Models.HoaDonT
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblHoaDon</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ngayThueSan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngayThueSan)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PhieuThueSan.soGioThue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhieuThueSan.soGioThue)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.tienSan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tienSan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tiendichvu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tiendichvu)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tongTien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tongTien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NhanVien.hotenNV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhanVien.hotenNV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhieuThueSan.maKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhieuThueSan.maKH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tinhTrangHD.mo_ta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tinhTrangHD.mo_ta)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.maHDTS }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
