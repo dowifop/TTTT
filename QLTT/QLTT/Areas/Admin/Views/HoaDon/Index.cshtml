@@ -1,0 +1,162 @@
+﻿@model IEnumerable<QLTT.Models.HoaDonT>
+
+@{
+    ViewBag.Title = "Danh sách hóa đơn";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<script src="~/Content/Admin/js/table2excel.js">
+</script>
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Admin</a>
+    </li>
+    <li class="breadcrumb-item active">@ViewBag.Title</li>
+</ol>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> @ViewBag.Title
+    </div>
+    <div class="container">
+        @using (Html.BeginForm())
+        {
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="date_start">ngày thuê</label>
+                    @Html.TextBox("beginDate", null, new { @class = "form-control" })
+                </div>
+                @*<div class="col-md-3">
+                        <label for="date_end">số giờ</label>
+                        @Html.TextBox("endDate", null, new { @class = "form-control" })
+                    </div>*@
+                <div class="col-md-2">
+                    <label for="date_end" style="visibility:hidden">End Date</label>
+                    <input type="submit" onclick="return checkday()" class="btn btn-primary btn-block" value="Lọc hóa đơn">
+                </div>
+            </div>
+        }
+    </div>
+    <hr />
+    <div class="card-body">
+        <div class="table-responsive">
+
+            <table class="table table-bordered" id="example-table" cellspacing="0">
+
+                <thead>
+                    <tr>
+                        <th>
+                            Mã hóa đơn
+                        </th>
+                        <th>
+                            Số sân
+                        </th>
+                        <th>
+                            Tên khách hàng
+                        </th>
+                        <th>
+                            Ngày thuê
+                        </th>
+                        <th>
+                            số giờ thuê
+                        </th>
+                       
+                        <th>
+                            Tiền sân
+                        </th>
+                        <th>
+                            Tiền dịch vụ
+                        </th>
+                      
+                        <th>
+                            Tổng tiền
+                        </th>
+                        <th>
+                            Tình trạng
+                        </th>
+                        <th></th>
+                        <th>
+                            Tổng doanh thu @ViewBag.tongTien VND
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.maHDTS)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PhieuThueSan.San.maSoSan)
+                            </td>
+                            <td>
+                                @if (item.PhieuThueSan.maKH == null)
+                                {
+                                    try
+                                    {
+                                        List<QLTT.Areas.Admin.Models.KhachHangKH> dskh = Newtonsoft.Json.JsonConvert.DeserializeObject<List<QLTT.Areas.Admin.Models.KhachHangKH>>(item.PhieuThueSan.thong_tin_khach_hang_thue);
+                                        for (var i = 1; i < dskh.Count; i++)
+                                        {
+                                            @dskh[i].hotenKH
+                                        }
+                                    }
+                                    catch
+                                    {
+
+                                    }
+                                }
+                                else
+                                {
+                                    @Html.DisplayFor(modelItem => item.PhieuThueSan.KhachHang.hoTenKH)
+                                }
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PhieuThueSan.NgayThue)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PhieuThueSan.soGioThue)
+                            </td>
+                            
+                            <td>
+                                @Html.DisplayFor(modelItem => item.tienSan)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.tiendichvu)
+                            </td>
+                           
+                            <td>
+                                @Html.DisplayFor(modelItem => item.tongTien)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.tinhTrangHD.mo_ta)
+                            </td>
+                            <td>
+
+                                @Html.ActionLink("Chi tiết", "ChiTietHoaDon", new { id = item.maHDTS })
+                            </td>
+
+
+                        </tr>
+
+                    }
+
+                </tbody>
+            </table>
+        </div>
+        <br />
+        <div class="alert alert-success">Tổng doanh thu bằng @ViewBag.tongTien VND </div>
+        <div>
+
+            <button id="downloadexecl"> Tải Xuống Excel</button>
+            <br><br>
+
+        </div>
+        <script>
+            document.getElementById('downloadexecl').addEventListener('click', function () {
+                var table2excel = new Table2Excel();
+                table2excel.export(document.querySelectorAll("#example-table"));
+
+            });
+        </script>
+    </div>
+    <div class="card-footer small text-muted">Updated yesterday at @DateTime.Now</div>
+</div>

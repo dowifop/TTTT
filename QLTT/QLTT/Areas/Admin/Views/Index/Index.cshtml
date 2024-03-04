@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewBag.Title = "Bảng quản trị";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using QLTT.Models
+@model List<San>
+
+<!-- SSS -->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Quản Lý</a>
+    </li>
+    <li class="breadcrumb-item active">Sân</li>
+</ol>
+@*<div class="container">
+    <div class="row">
+        <div class="col-md-4"><div class="alert alert-success">Có @ViewBag.soSantrong Sân đang trống</div></div>
+        <div class="col-md-4"><div class="alert alert-danger">Có @ViewBag.soSansd Sân đang được sử dụng</div></div>
+        <div class="col-md-4"><div class="alert alert-warning">Có @ViewBag.soSandon Sân đang dọn</div></div>
+    </div>
+</div>*@
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> List Sân
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+
+            <!-- /SSS -->
+            <table class="table table-bordered table-striped table-hover" id="dataTable" cellspacing="0">
+                <thead>
+                    <tr>
+
+                        <th>SS</th>
+                        <th>Loại Sân</th>
+                        @*<th>Khu Vực</th>*@
+                        <th>Ngày thuê</th>
+                        <th>Số giờ thuê</th>
+                        <th>Tình trạng</th>
+                        <th>Lựa Chọn</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+
+                        <th>SS</th>
+                        <th>Loại Sân</th>
+                        @*<th>Khu Vực</th>*@
+                        <th>Ngày thuê</th>
+                        <th>Số giờ thuê</th>
+                        <th>Tình trạng</th>
+                        <th>Lựa Chọn</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+
+                            <td>@item.maSoSan</td>
+                            <td>@item.LoaiSan1.moTa</td>
+                            @*<td>@item.tblTang.ten_tang</td>*@
+                            <td>@item.LoaiSan1.giaThue / giờ</td>
+
+
+                            @if (item.maTinhTrang == 1)
+                            {
+                                <td><span class="badge badge-success badge-g">@item.TinhTrangSan.mota</span></td>
+                                <td></td>
+                            }
+                            else if (item.maTinhTrang == 2)
+                            {
+                                <td><span class="badge badge-danger badge-g">@item.TinhTrangSan.mota</span></td>
+                                <td>
+                                    <a href="@Url.Action("FindHdById","Index",new { id = @item.maSan })"><div class="btn btn-danger badge-g">Trả sân</div></a>
+                                    <a href="@Url.Action("FindHdById2","Index",new { id = @item.maSan })" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Gọi dịch vụ</a>
+                                </td>
+                            }
+                            else if (item.maTinhTrang == 3)
+                            {
+                                <td><span class="badge badge-warning badge-g">@item.TinhTrangSan.mota</span></td>
+                                <td><a href="@Url.Action("DonSanXong","Index",new { id = @item.maSan })"><div class="btn btn-warning badge-g">Dọn xong</div></a></td>
+                            }
+                            else
+                            {
+                                <td><span class="badge badge-info badge-g">@item.TinhTrangSan.mota</span></td>
+                                <td><a href="@Url.Action("DonSanXong","Index",new { id = @item.maSan })"><div class="btn btn-info badge-g">Bảo trì xong</div></a></td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted">Updated yesterday at @DateTime.Now</div>
+</div>
