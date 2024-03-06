@@ -575,7 +575,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
         public ActionResult ResultGiaHan(String ma_pts, int soGioThue)
         {
-            if (ma_pts == null || soGioThue == null)
+            if (ma_pts == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }

@@ -20,8 +20,6 @@ namespace QLTT.Controllers.Home
             return View();
         }
 
-
-
         // GET: KhachHang/Create
         public ActionResult Register()
         {
@@ -49,7 +47,6 @@ namespace QLTT.Controllers.Home
                     ModelState.AddModelError("", "Tên tài khoản đã được sử dụng!");
                     return View(kh);
                 }
-
                 if (kh.matKhau.Length < 6)
                 {
                     ModelState.AddModelError("matKhau", "Mật khẩu phải chứa ít nhất 6 kí tự.");
@@ -61,14 +58,12 @@ namespace QLTT.Controllers.Home
                     ModelState.AddModelError("emailKH", "Email phải kết thúc bằng '@gmail.com'.");
                     return View(kh);
                 }
-
                 // kiểm tra số điện thoại phải bắt đầu bằng số 0 và có 10 chữ số từ 0 -> 9
                 if (!Regex.IsMatch(kh.sdtKH, "^0\\d{8,}$"))
                 {
                     ModelState.AddModelError("sdtKH", "Số điện thoại phải bắt đầu bằng số 0 và có ít nhất 9 chữ số.");
                     return View(kh);
                 }
-
                 db.KhachHangs.Add(kh);
                 db.SaveChanges();
                 Session["KH"] = kh;
@@ -78,10 +73,6 @@ namespace QLTT.Controllers.Home
             return View(kh);
 
         }
-
-
-
-
         public ActionResult CaNhan()
         {
             KhachHang kh = new KhachHang();
@@ -95,8 +86,6 @@ namespace QLTT.Controllers.Home
             }
             return View(kh);
         }
-
-      
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult CaNhan([Bind(Include = "maKH,matKhau,hoTenKH,sdtKH,diaChiKH,emailKH")] KhachHang tblKhachHang)
@@ -145,7 +134,6 @@ namespace QLTT.Controllers.Home
         {
             return View();
         }
-
         public ActionResult Logout()
         {
             Session["KH"] = null;
@@ -171,7 +159,6 @@ namespace QLTT.Controllers.Home
             return View(tblPhieuDatsan);
         }
 
-        
         [HttpPost, ActionName("XoaPhieuDatSan")]
         [ValidateAntiForgeryToken]
         public ActionResult ConfirmXoaPhieuDatSan(int id)
@@ -211,8 +198,6 @@ namespace QLTT.Controllers.Home
             ViewBag.maTinhTrang = new SelectList(db.tinhTrangPTs, "maTinhTrang", "tinhTrang", tblPhieuDatSan.maTinhTrang);
             return View(tblPhieuDatSan);
         }
-
-        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult SuaPhieuDatSan([Bind(Include = "maPT,maKH,NgayDat,NgayThue,soGioThue,maSoSan,maTinhTrang")] PhieuThueSan tblPhieuDatSan)
@@ -247,17 +232,12 @@ namespace QLTT.Controllers.Home
                 {
                     so_gio_thue = hoaDon.PhieuThueSan.soGioThue.Value;
                 }
-
                 DateTime ngay_bat_dau = ngay_thue;
                 DateTime ngay_ket_thuc = ngay_thue.AddHours(so_gio_thue);
-
                 double gia = (double)hoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
-
                 var so_gio = (ngay_ket_thuc - ngay_bat_dau).TotalHours;
-
                 var tien_San = so_gio * gia;
                 hoaDon.tienSan = (int)tien_San;
-
 
                 double tong_tien_dich_vu = 0;
                 List<double> list_tt = new List<double>();
@@ -271,11 +251,8 @@ namespace QLTT.Controllers.Home
                 hoaDon.tongTien = (int)(tien_San + tong_tien_dich_vu);
 
             }
-
             return View(dsHoaDon);
         }
-
-
         public ActionResult PhieuDatSan()
         {
             AutoHuyPhieuDatSan();
@@ -303,7 +280,6 @@ namespace QLTT.Controllers.Home
                 }
             }
         }
-
         public ActionResult ChiTietHoaDon(int? id)
         {
             if (id == null)
@@ -315,22 +291,17 @@ namespace QLTT.Controllers.Home
             {
                 return HttpNotFound();
             }
-
             DateTime ngay_thue = (DateTime)tblHoaDon.PhieuThueSan.NgayThue;
             int so_gio_thue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;  // giả định soGioThue là int?
-
             int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
-
             var tien_San = so_gio_thue  * gia;  // Chuyển số giờ thuê thành số ngày
             ViewBag.tienSan = tien_San;
             ViewBag.soGioThue = so_gio_thue;
-
             NhanVien nv = (NhanVien)Session["NV"];
             if (nv != null)
             {
                 ViewBag.hoTenNV = nv.hotenNV;
             }
-
             List<DichVuDaDat> dsdv = db.DichVuDaDats.Where(u => u.maHDTS == id).ToList();
             ViewBag.list_dv = dsdv;
             double tongtiendv = 0;
