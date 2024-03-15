@@ -20,7 +20,7 @@
                             <div class="tab-content">
                                 <div class="tab-content-inner active" data-content="signup">
                                     <h1 class="cursive-font">Đặt Sân</h1>
-                                    @using (Html.BeginForm("FindSan", "Home"))
+                                    @using (Html.BeginForm("Search", "Home"))
                                     {
                                         <div class="row form-group">
                                             <div class="col-md-12">
@@ -28,14 +28,14 @@
                                         </div>
                                         <div class="row form-group">
                                             <div class="col-md-12">
-                                                <label for="NgayThue"><h3>Ngày Thuê</h3></label>
+                                                <label for="NgayThue">Ngày Thuê</label>
                                                 @Html.TextBox("NgayThue", null, new { @class = "form-control", id = "NgayThue" })
 
                                             </div>
                                         </div>
                                         <div class="row form-group">
                                             <div class="col-md-12">
-                                                <label for="soGioThue"><h3>Số Giờ Thuê</h3></label>
+                                                <label for="soGioThue">Số Giờ Thuê</label>
                                                 @Html.TextBox("soGioThue", null, new { @class = "form-control" })
                                             </div>
                                         </div>
@@ -47,17 +47,12 @@
                                         </div>
                                     }
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-    </div>
     </div>
 </header>
 

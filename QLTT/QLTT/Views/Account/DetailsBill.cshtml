@@ -21,8 +21,6 @@
                     <i class="fa fa-table"></i> Hóa đơn số @Html.DisplayFor(model => model.maHDTS)
                 </div>
                 <div class="card-body">
-
-
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-horizontal">
@@ -38,9 +36,6 @@
                                 catch
                                 {
                                 }
-
-
-
                                 <table class="table table-bordered table-responsive table-striped" cellspacing="0">
 
                                     <tr>
@@ -131,9 +126,6 @@
                                                         <td>
                                                             @Html.DisplayFor(modelItem => ds[i].DichVu.gia)
                                                         </td>
-                                                        @*<td>
-                                        @Html.DisplayFor(modelItem => ds[i].DichVu.don_vi)
-                                    </td>*@
                                                         <td>
                                                             @Html.DisplayFor(modelItem => ds[i].so_luong)
                                                         </td>
@@ -168,12 +160,11 @@
                 </div>
             </div>
 
-            if (Model.maTinhTrang == 1)
+            @*if (Model.maTinhTrang == 1)
             {
                 <input type="submit" value="Thanh Toán" class="btn btn-success btn-lg" />
-            }
+            }*@
         }
-
     </div><br />
     <div>
         <br />

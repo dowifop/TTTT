@@ -9,11 +9,11 @@
     <li class="breadcrumb-item">
         <a href="@Url.Action("Index","Index")">Admin</a>
     </li>
-    <li class="breadcrumb-item"><a href="@Url.Action("Index","HoaDon")">Hóa đơn</a></li>
-    <li class="breadcrumb-item active"><a href="@Url.Action("ChiTietHoaDon","HoaDon",new { id = Model.maHDTS })">@Html.DisplayFor(model => model.maHDTS)</a></li>
+    <li class="breadcrumb-item"><a href="@Url.Action("Index","Bill")">Hóa đơn</a></li>
+    <li class="breadcrumb-item active"><a href="@Url.Action("DetailsBill","Bill",new { id = Model.maHDTS})">@Html.DisplayFor(model => model.maHDTS)</a></li>
     <li class="breadcrumb-item active">Thanh toán</li>
 </ol>
-@using (Html.BeginForm("XacNhanThanhToan", "HoaDon"))
+@using (Html.BeginForm("ConfirmPayment", "Bill"))
 {
     @Html.AntiForgeryToken()
     <div class="card mb-3" id="hoadon">
@@ -38,13 +38,10 @@
                         {
                         }
 
-
-
-
                         <table class="table table-bordered table-responsive table-striped" cellspacing="0">
                             <tr>
                                 <td>Nhân Viên</td>
-                                <td>@ViewBag.hoTenNV</td>
+                                <td>@ViewBag.hotenNV</td>
                             </tr>
                             <tr>
                                 <td>Khách hàng</td>
@@ -58,9 +55,8 @@
                                     <td>@Model.PhieuThueSan.KhachHang.hoTenKH</td>
                                 }
                             </tr>
-                            
                             <tr>
-                                <td>Số sân</td>
+                                <td>Mã số sân</td>
                                 <td>@Model.PhieuThueSan.San.maSoSan</td>
                             </tr>
                             <tr>
@@ -94,8 +90,6 @@
                                     </table>
                                 </td>
                             </tr>
-                            <tr>
-
                         </table>
                     </div>
                 </div>
@@ -114,6 +108,7 @@
                                         <th>
                                             Giá
                                         </th>
+
                                         <th>
                                             Số lượng
                                         </th>
@@ -142,17 +137,14 @@
                                                 </td>
                                             </tr>
                                         }
-                                        <tr><td>Tổng:</td><td></td><td></td><td></td><td>@ViewBag.tienDichVu</td></tr>
+                                        <tr><td>Tổng:</td><td></td><td></td><td></td><td>@ViewBag.tiendichvu</td></tr>
                                     }
                                 </table>
-
                             </div>
-
                         </div>
-
                     </div>
-                    Công thức tính tiền Sân:<br />
-                    Tổng tiền = số giờ thuê x giá sân.
+                    Công thức tính tiền sân:<br />
+                    Tổng tiền = Số giờ thuê (số giờ kết thúc - số giờ bắt đầu) x giá sân.
                 </div>
 
 
@@ -161,10 +153,9 @@
             <div class="form-group">
                 @Html.Label("Tổng tiền", htmlAttributes: new { @class = "control-label col-md-8" })
                 <div class="col-md-10">
-                    @Html.TextBox("tong_tien", ((int)ViewBag.tongTien).ToString("C"), new { @class = "form-control", @readonly = "readonly" })
+                    @Html.TextBox("tongTien", ((int)ViewBag.tongTien).ToString("C"), new { @class = "form-control", @readonly = "readonly" })
                 </div>
             </div>
-
         </div>
     </div>
 

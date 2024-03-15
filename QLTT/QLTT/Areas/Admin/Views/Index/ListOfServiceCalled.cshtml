@@ -4,7 +4,6 @@
 }
 @using QLTT.Models
 @model List<HoaDonT>
-
 <!-- SSS -->
 <ol class="breadcrumb">
     <li class="breadcrumb-item">
@@ -51,7 +50,9 @@
                             <td>@item.PhieuThueSan.NgayThue</td>
                             <td>@item.PhieuThueSan.soGioThue</td>
                             <td><span class="badge badge-danger badge-g">@item.PhieuThueSan.San.TinhTrangSan.mota</span></td>
-                            <td><a href="@Url.Action("GoiDichVu","HoaDon",new { id = item.maHDTS})"><button type="button" class="btn btn-primary badge-g">Gọi dịch vụ</button></a></td>
+                            <td>
+                                <a href="@Url.Action("CallService","Bill",new { id = item.maHDTS})" class="btn btn-primary badge-g">Gọi dịch vụ</a>
+                            </td>
                         </tr>
                     }
                 </tbody>

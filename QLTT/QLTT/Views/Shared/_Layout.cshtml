@@ -83,8 +83,8 @@
                                 <a href="#">Bảng giá</a>
                                 <ul class="dropdown">
 
-                                    <li><a class="nav-link" href="@Url.Action("GiaSan", "BangGia")">Giá Sân</a></li>
-                                    <li><a class="nav-link" href="@Url.Action("GiaDichVu", "BangGia")">Giá Dịch vụ</a></li>
+                                    <li><a class="nav-link" href="@Url.Action("Price", "BangGia")">Giá Sân</a></li>
+                                    <li><a class="nav-link" href="@Url.Action("ServicePrice", "BangGia")">Giá Dịch vụ</a></li>
                                 </ul>
                             </li>
 
@@ -94,7 +94,7 @@
                                     <li><a class="nav-link" href="@Url.Action("Ads", "Account")"> Trung tâm thể thao</a></li>
 
                                     <li class="has-dropdown">
-                                        <a class="nav-link" href="@Url.Action("Csvc", "Account")" style="width:240px"> Cơ sở vật chất</a>
+                                        <a class="nav-link" href="@Url.Action("Infrastructure", "Account")" style="width:240px"> Cơ sở vật chất</a>
                                         
                                     </li>
 
@@ -103,11 +103,11 @@
                             @*</ul>
                                 <ul>*@
 
-                            <li><a class="nav-link" href="@Url.Action("suKien", "Home")"> Đặt sự kiện</a></li>
+                            <li><a class="nav-link" href="@Url.Action("Event", "Home")"> Đặt sự kiện</a></li>
 
                             <li><a class="nav-link" href="@Url.Action("Index", "Home")"><i style='font-size:40px' class="glyphicon">&#xe021;</i> </a></li>
 
-                            <li><a class="nav-link" href="@Url.Action("TimSan", "Home")">Tìm Sân</a></li>
+                            <li><a class="nav-link" href="@Url.Action("RentInfrastucture", "Home")">Tìm Sân</a></li>
 
 
                             <li><a class="nav-link" href="@Url.Action("Contact", "Home")">Phản Hồi</a></li>
@@ -120,10 +120,10 @@
 
                                         <a href="#">@kh.hoTenKH</a>
                                         <ul class="dropdown">
-                                            <li><a href="@Url.Action("PhieuDatSan", "Account")">Phiếu đặt sân</a></li>
-                                            <li><a href="@Url.Action("HoaDon", "Account")">Hóa Đơn</a></li>
-                                            <li><a href="@Url.Action("CaNhan", "Account")">Sửa thông tin</a></li>
-                                            <li><a href="@Url.Action("BookSan", "Home")">Phiếu thuê</a></li>
+                                            <li><a href="@Url.Action("VoteRent", "Account")">Phiếu đặt sân</a></li>
+                                            <li><a href="@Url.Action("Bill", "Account")">Hóa Đơn</a></li>
+                                            <li><a href="@Url.Action("Customer", "Account")">Sửa thông tin</a></li>
+                                            <li><a href="@Url.Action("Rent", "Home")">Phiếu thuê</a></li>
                                             <li><a onclick="return confirm('Bạn có thực sự muốn đăng xuất ?');" href="@Url.Action("Logout", "Account")">Đăng Xuất</a></li>
                                         </ul>
                                     }

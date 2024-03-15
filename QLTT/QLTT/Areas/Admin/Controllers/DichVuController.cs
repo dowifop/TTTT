@@ -54,9 +54,8 @@ namespace QLTT.Areas.Admin.Controllers
                 String anh = "/Content/Images/DichVu/default.png";
                 if (file != null)
                 {
-                    string pic = System.IO.Path.GetFileName(file.FileName);
-                    String path = System.IO.Path.Combine(
-                                           Server.MapPath("~/Content/Images/DichVu"), pic);
+                    string pic = Path.GetFileName(file.FileName);
+                    String path = Path.Combine(Server.MapPath("~/Content/Images/DichVu"), pic);
                     // file is uploaded
                     file.SaveAs(path);
                     anh = "/Content/Images/DichVu/" + pic;
@@ -79,7 +78,7 @@ namespace QLTT.Areas.Admin.Controllers
             return View(dichVu);
         }
 
-        // GET: DichVu/Edit/5
+        // GET: DichVu/EditService/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -94,7 +93,7 @@ namespace QLTT.Areas.Admin.Controllers
             return View(dichVu);
         }
 
-        // POST: DichVu/Edit/5
+        // POST: DichVu/EditService/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -133,7 +132,7 @@ namespace QLTT.Areas.Admin.Controllers
             return View(dichVu);
         }
 
-        // GET: DichVu/Delete/5
+        // GET: DichVu/DeleteService/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -148,8 +147,8 @@ namespace QLTT.Areas.Admin.Controllers
             return View(dichVu);
         }
 
-        // POST: DichVu/Delete/5
-        [HttpPost, ActionName("Delete")]
+        // POST: DichVu/DeleteService/5
+        [HttpPost, ActionName("DeleteService")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

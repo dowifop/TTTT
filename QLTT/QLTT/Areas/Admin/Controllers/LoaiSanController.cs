@@ -14,7 +14,6 @@ namespace QLTT.Areas.Admin.Controllers
     public class LoaiSanController : Controller
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
-
       
         public ActionResult Index()
         {
@@ -34,15 +33,11 @@ namespace QLTT.Areas.Admin.Controllers
                 return HttpNotFound();
             }
             return View(tblLoaiPhong);
-        }
-
-       
+        }    
         public ActionResult Create()
         {
             return View();
-        }
-
-        
+        }    
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "moTa,giaThue,anh")] LoaiSan loaiSan)
@@ -57,9 +52,7 @@ namespace QLTT.Areas.Admin.Controllers
             }
 
             return View(loaiSan);
-        }
-
-       
+        }     
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -72,9 +65,7 @@ namespace QLTT.Areas.Admin.Controllers
                 return HttpNotFound();
             }
             return View(tblLoaiPhong);
-        }
-
-        
+        }      
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Loai_San,mota,giaThue,anh")] LoaiSan loaiSan)
@@ -88,9 +79,7 @@ namespace QLTT.Areas.Admin.Controllers
                 return RedirectToAction("Index");
             }
             return View(loaiSan);
-        }
-
-        
+        }   
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -105,8 +94,7 @@ namespace QLTT.Areas.Admin.Controllers
             return View(loaiSan);
         }
 
-      
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("DeleteService")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
@@ -122,7 +110,6 @@ namespace QLTT.Areas.Admin.Controllers
             }
             return RedirectToAction("Index");
         }
-
         protected override void Dispose(bool disposing)
         {
             if (disposing)

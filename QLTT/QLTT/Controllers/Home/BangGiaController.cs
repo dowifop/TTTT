@@ -10,11 +10,11 @@ namespace QLTT.Controllers
     {
         // GET: BangGia
         QLTT.Models.QlyTheThaoEntities db = new Models.QlyTheThaoEntities();  
-        public ActionResult GiaSan()
+        public ActionResult Price()
         {
             return View(db.LoaiSans.ToList());
         }
-        public ActionResult GiaDichVu()
+        public ActionResult ServicePrice()
         {
             return View(db.DichVus.ToList());
         }

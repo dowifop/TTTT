@@ -81,7 +81,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(san);
         }
 
-        // POST: Phong/Edit/5
+        // POST: Phong/EditService/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -99,7 +99,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(san);
         }
 
-        // GET: Phong/Delete/5
+        // GET: Phong/DeleteService/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -114,8 +114,8 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(san);
         }
 
-        // POST: Phong/Delete/5
-        [HttpPost, ActionName("Delete")]
+        // POST: Phong/DeleteService/5
+        [HttpPost, ActionName("DeleteService")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

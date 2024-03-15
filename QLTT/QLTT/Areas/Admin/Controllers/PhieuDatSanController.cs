@@ -20,12 +20,12 @@ namespace QLTT.Areas.Admin.Controllers.Admin
        
         public ActionResult Index()
         {
-            AutoHuyPhieuDatSan();
+            AutoCancelVote();
             var PhieuThueSan = db.PhieuThueSans.Include(t => t.KhachHang).Include(t => t.San).Include(t => t.tinhTrangPT);
             return View(PhieuThueSan.ToList());
         }
 
-        private void AutoHuyPhieuDatSan()
+        private void AutoCancelVote()
         {
             var datenow = DateTime.Now;
             var PhieuThueSan = db.PhieuThueSans.Where(u => u.maTinhTrang == 1).Include(t => t.KhachHang).Include(t => t.San).Include(t => t.tinhTrangPT).ToList();
@@ -44,7 +44,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
 
         public ActionResult List()
         {
-            AutoHuyPhieuDatSan();
+            AutoCancelVote();
             var PhieuThueSan = db.PhieuThueSans/*.Where(t => t.maTinhTrang == 1 && t.NgayThue.Value.Month == DateTime.Now.Month && t.NgayThue.Value.Day == DateTime.Now.Day    && t.NgayThue.Value.Year == DateTime.Now.Year).Include(t => t.KhachHang).Include(t => t.San).Include(t => t.tinhTrangPT)*/;
             return View(PhieuThueSan.ToList());
         }
@@ -79,7 +79,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
 
 
-        public ActionResult SelectSan(String dateE)
+        public ActionResult SelectInfrastructure(String dateE)
         {
             if (dateE == null)
             {
@@ -115,12 +115,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             db.PhieuThueSans.Add(phieuThueSan);
             db.SaveChanges();
             int ma = phieuThueSan.maPT;
-            return RedirectToAction("Add", "HoaDon", new { id = ma });
-
-            ViewBag.maKH = new SelectList(db.KhachHangs, "maKH", "maKH", phieuThueSan.maKH);
-            ViewBag.maSan = new SelectList(db.Sans, "maSan", "maSoSan", phieuThueSan.maSan);
-            ViewBag.maTinhTrang = new SelectList(db.tinhTrangPTs, "maTinhTrang", "tinhTrang", phieuThueSan.maTinhTrang);
-            return View(phieuThueSan);
+            return RedirectToAction("Add", "Bill", new { id = ma });        
         }
 
        
@@ -178,7 +173,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
 
      
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("DeleteService")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

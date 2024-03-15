@@ -11,7 +11,7 @@
     <li class="breadcrumb-item active">@ViewBag.title</li>
 </ol>
 
-@using (Html.BeginForm("Edit", "DichVu", FormMethod.Post,
+@using (Html.BeginForm("EditService", "DichVu", FormMethod.Post,
                                         new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()

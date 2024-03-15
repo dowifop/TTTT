@@ -67,21 +67,21 @@ namespace QLTT.Areas.Admin.Controllers
         }
 
 
-        public ActionResult ChonCachDatSan()
+        public ActionResult ChooseRent()
         {
             return View();
         }
-        public ActionResult ListSanDangHoatDong()
+        public ActionResult ListOfActive()
         {
             var list = db.HoaDonTS.Where(u => u.maTinhTrang == 1).Include(t => t.NhanVien).Include(t => t.PhieuThueSan).Include(t => t.tinhTrangHD);
             return View(list.ToList());
         }
-        public ActionResult DSSanGoiDV()
+        public ActionResult ListOfServiceCalled()
         {
             var list = db.HoaDonTS.Where(u => u.maTinhTrang == 1).Include(t => t.NhanVien).Include(t => t.PhieuThueSan).Include(t => t.tinhTrangHD);
             return View(list.ToList());
         }
-        public ActionResult TraSan(String id)
+        public ActionResult Return(String id)
         {
             if (id == null)
             {
@@ -89,14 +89,14 @@ namespace QLTT.Areas.Admin.Controllers
             }
             return View();
         }
-        public ActionResult FindHdById(int? id)
+        public ActionResult FindBill(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             int ma_hd = db.HoaDonTS.Where(u => u.PhieuThueSan.maSan == id && u.maTinhTrang == 1).First().maHDTS;
-            return RedirectToAction("ThanhToan", "HoaDon", new { id = ma_hd });
+            return RedirectToAction("Pay", "Bill", new { id = ma_hd });
         }
         public ActionResult FindHdById2(int? id)
         {
@@ -105,9 +105,9 @@ namespace QLTT.Areas.Admin.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             int ma_hd = db.HoaDonTS.Where(u => u.PhieuThueSan.maSan == id && u.maTinhTrang == 1).First().maHDTS;
-            return RedirectToAction("GoiDichVu", "HoaDon", new { id = ma_hd });
+            return RedirectToAction("CallService", "Bill", new { id = ma_hd });
         }
-        public ActionResult DonSanXong(int? id)
+        public ActionResult CleanInfrastructure(int? id)
         {
             if (id == null)
             {
@@ -119,12 +119,12 @@ namespace QLTT.Areas.Admin.Controllers
             db.SaveChanges();
             return RedirectToAction("Index", "Index");
         }
-        public ActionResult FindSan()
+        public ActionResult Search()
         {
             return View();
         }
 
-        public ActionResult CaNhan()
+        public ActionResult Employee()
         {
             NhanVien nv = (NhanVien)Session["NV"];
             if (nv != null)
@@ -138,7 +138,7 @@ namespace QLTT.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult CaNhan([Bind(Include = "maNV,hoTenNV,emailNV,sdtNV,diaChiNV,dobNV,taiKhoan,matKhau,maPH,maCV,maSK")] NhanVien tblNhanVien)
+        public ActionResult Employee([Bind(Include = "maNV,hoTenNV,emailNV,sdtNV,diaChiNV,dobNV,taiKhoan,matKhau,maPH,maCV,maSK")] NhanVien tblNhanVien)
         {
             if (ModelState.IsValid)
             {

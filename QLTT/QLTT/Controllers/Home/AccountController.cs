@@ -73,7 +73,7 @@ namespace QLTT.Controllers.Home
             return View(kh);
 
         }
-        public ActionResult CaNhan()
+        public ActionResult Customer()
         {
             KhachHang kh = new KhachHang();
             if (Session["KH"] == null)
@@ -88,7 +88,7 @@ namespace QLTT.Controllers.Home
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult CaNhan([Bind(Include = "maKH,matKhau,hoTenKH,sdtKH,diaChiKH,emailKH")] KhachHang tblKhachHang)
+        public ActionResult Customer([Bind(Include = "maKH,matKhau,hoTenKH,sdtKH,diaChiKH,emailKH")] KhachHang tblKhachHang)
         {
             if (ModelState.IsValid)
             {
@@ -139,7 +139,7 @@ namespace QLTT.Controllers.Home
             Session["KH"] = null;
             return RedirectToAction("Login", "Account");
         }
-        public ActionResult XoaPhieuDatSan(int? id)
+        public ActionResult DeleteVoteRent(int? id)
         {
             KhachHang kh = new KhachHang();
             if (Session["KH"] != null)
@@ -159,9 +159,9 @@ namespace QLTT.Controllers.Home
             return View(tblPhieuDatsan);
         }
 
-        [HttpPost, ActionName("XoaPhieuDatSan")]
+        [HttpPost, ActionName("DeleteVoteRent")]
         [ValidateAntiForgeryToken]
-        public ActionResult ConfirmXoaPhieuDatSan(int id)
+        public ActionResult ConfirmDeleteVoteRent(int id)
         {
             PhieuThueSan tblPhieuDatSan = db.PhieuThueSans.Find(id);
             tblPhieuDatSan.maTinhTrang = 3;
@@ -177,7 +177,7 @@ namespace QLTT.Controllers.Home
             }
             base.Dispose(disposing);
         }
-        public ActionResult SuaPhieuDatSan(int? id)
+        public ActionResult EditVoteRent(int? id)
         {
             KhachHang kh = new KhachHang();
             if (Session["KH"] != null)
@@ -200,21 +200,21 @@ namespace QLTT.Controllers.Home
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult SuaPhieuDatSan([Bind(Include = "maPT,maKH,NgayDat,NgayThue,soGioThue,maSoSan,maTinhTrang")] PhieuThueSan tblPhieuDatSan)
+        public ActionResult EditVoteRent([Bind(Include = "maPT,maKH,NgayDat,NgayThue,soGioThue,maSoSan,maTinhTrang")] PhieuThueSan tblPhieuDatSan)
         {
             if (ModelState.IsValid)
             {
                 tblPhieuDatSan.maTinhTrang = 1;
                 db.Entry(tblPhieuDatSan).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("BookSan", "Home");
+                return RedirectToAction("Rent", "Home");
             }
             ViewBag.maKH = new SelectList(db.KhachHangs, "maKH", "matKhau", tblPhieuDatSan.maKH);
             ViewBag.maSan = new SelectList(db.Sans, "maSan", "maSoSan", tblPhieuDatSan.maSan);
             ViewBag.maTinhTrang = new SelectList(db.tinhTrangPTs, "maTinhTrang", "tinhTrang", tblPhieuDatSan.maTinhTrang);
-            return RedirectToAction("BookSan", "Home");
+            return RedirectToAction("Rent", "Home");
         }
-        public ActionResult HoaDon()
+        public ActionResult Bill()
         {
             KhachHang kh = new KhachHang();
             if (Session["KH"] != null)
@@ -253,9 +253,9 @@ namespace QLTT.Controllers.Home
             }
             return View(dsHoaDon);
         }
-        public ActionResult PhieuDatSan()
+        public ActionResult VoteRent()
         {
-            AutoHuyPhieuDatSan();
+            AutoCancelVoteRent();
             KhachHang kh = new KhachHang();
             if (Session["KH"] != null)
                 kh = (KhachHang)Session["KH"];
@@ -265,7 +265,7 @@ namespace QLTT.Controllers.Home
             var dsPDP = db.PhieuThueSans.Where(t => t.maKH == kh.maKH).ToList();
             return View(dsPDP);
         }
-        private void AutoHuyPhieuDatSan()
+        private void AutoCancelVoteRent()
         {
             var datenow = DateTime.Now;
             var tblPhieuDatSan = db.PhieuThueSans.Where(u => u.maTinhTrang == 1).Include(t => t.KhachHang).Include(t => t.San).Include(t => t.tinhTrangPT).ToList();
@@ -280,7 +280,7 @@ namespace QLTT.Controllers.Home
                 }
             }
         }
-        public ActionResult ChiTietHoaDon(int? id)
+        public ActionResult DetailsBill(int? id)
         {
             if (id == null)
             {
@@ -318,7 +318,7 @@ namespace QLTT.Controllers.Home
             ViewBag.tongTien = tien_San + tongtiendv;
             return View(tblHoaDon);
         }
-        public ActionResult Csvc()
+        public ActionResult Infrastructure()
         {
             return View();
         }

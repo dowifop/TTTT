@@ -290,7 +290,6 @@
     <Compile Include="Areas\Admin\Controllers\LoaiSanController.cs" />
     <Compile Include="Areas\Admin\Controllers\NhanVienController.cs" />
     <Compile Include="Areas\Admin\Controllers\PhieuDatSanController.cs" />
-    <Compile Include="Areas\Admin\Controllers\PhongBanController.cs" />
     <Compile Include="Areas\Admin\Controllers\SanController.cs" />
     <Compile Include="Areas\Admin\Models\KhachHang.cs" />
     <Compile Include="Controllers\Home\AccountController.cs" />
@@ -592,13 +591,13 @@
     <Content Include="Areas\Admin\Views\NhanVien\Details.cshtml" />
     <Content Include="Areas\Admin\Views\NhanVien\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\NhanVien\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Index\CaNhan.cshtml" />
+    <Content Include="Areas\Admin\Views\Index\Employee.cshtml" />
     <Content Include="Areas\Admin\Views\NhanVien\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\PhieuDatSan\Index.cshtml" />
     <Content Include="Areas\Admin\Views\PhieuDatSan\List.cshtml" />
     <Content Include="Areas\Admin\Views\PhieuDatSan\Details.cshtml" />
     <Content Include="Areas\Admin\Views\PhieuDatSan\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\PhieuDatSan\SelectSan.cshtml" />
+    <Content Include="Areas\Admin\Views\PhieuDatSan\SelectInfrastructure.cshtml" />
     <Content Include="Areas\Admin\Views\PhieuDatSan\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\PhieuDatSan\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\DichVu\Create.cshtml" />
@@ -606,12 +605,12 @@
     <Content Include="Areas\Admin\Views\DichVu\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\DichVu\Details.cshtml" />
     <Content Include="Areas\Admin\Views\DichVu\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\HoaDon\XacNhanThanhToan.cshtml" />
-    <Content Include="Areas\Admin\Views\HoaDon\ThanhToan.cshtml" />
-    <Content Include="Areas\Admin\Views\HoaDon\ResultGiaHan.cshtml" />
+    <Content Include="Areas\Admin\Views\HoaDon\ConfirmPayment.cshtml" />
+    <Content Include="Areas\Admin\Views\HoaDon\Pay.cshtml" />
+    <Content Include="Areas\Admin\Views\HoaDon\ResultExtend.cshtml" />
     <Content Include="Areas\Admin\Views\HoaDon\Result.cshtml" />
-    <Content Include="Areas\Admin\Views\HoaDon\GoiDichVu.cshtml" />
-    <Content Include="Areas\Admin\Views\HoaDon\GiaHanSan.cshtml" />
+    <Content Include="Areas\Admin\Views\HoaDon\CallService.cshtml" />
+    <Content Include="Areas\Admin\Views\HoaDon\Extend.cshtml" />
     <Content Include="Areas\Admin\Views\HoaDon\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\San\Create.cshtml" />
     <Content Include="Areas\Admin\Views\San\Delete.cshtml" />
@@ -622,12 +621,12 @@
     <Content Include="Areas\Admin\Views\HoaDon\Create.cshtml" />
     <Content Include="Areas\Admin\Views\HoaDon\Add.cshtml" />
     <Content Include="Areas\Admin\Views\HoaDon\Delete.cshtml" />
-    <Content Include="Areas\Admin\Views\HoaDon\ChiTietHoaDon.cshtml" />
-    <Content Include="Areas\Admin\Views\Index\DSSanGoiDV.cshtml" />
-    <Content Include="Areas\Admin\Views\Index\ListSanDangHoatDong.cshtml" />
-    <Content Include="Areas\Admin\Views\Index\ChonCachDatSan.cshtml" />
+    <Content Include="Areas\Admin\Views\HoaDon\DetailBill.cshtml" />
+    <Content Include="Areas\Admin\Views\Index\ListOfServiceCalled.cshtml" />
+    <Content Include="Areas\Admin\Views\Index\ListOfActive.cshtml" />
+    <Content Include="Areas\Admin\Views\Index\ChooseRent.cshtml" />
     <Content Include="Areas\Admin\Views\HoaDon\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Index\FindSan.cshtml" />
+    <Content Include="Areas\Admin\Views\Index\Search.cshtml" />
     <EntityDeploy Include="Models\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
@@ -665,30 +664,29 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Account\CaNhan.cshtml" />
-    <Content Include="Views\BangGia\GiaSan.cshtml" />
-    <Content Include="Views\Home\suKien.cshtml" />
+    <Content Include="Views\Account\Customer.cshtml" />
+    <Content Include="Views\BangGia\Price.cshtml" />
+    <Content Include="Views\Home\Event.cshtml" />
     <Content Include="Views\Account\Ads.cshtml" />
-    <Content Include="Views\Home\TimSan.cshtml" />
-    <Content Include="Views\Home\FindSan.cshtml" />
-    <Content Include="Views\Home\HuyChon.cshtml" />
-    <Content Include="Views\Home\BookSan.cshtml" />
+    <Content Include="Views\Home\RentInfrastucture.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
+    <Content Include="Views\Home\Cancel.cshtml" />
+    <Content Include="Views\Home\Rent.cshtml" />
     <Content Include="Views\Home\Slider.cshtml" />
     <Content Include="Views\Home\Upload.cshtml" />
-    <Content Include="Views\Account\XoaPhieuDatSan.cshtml" />
+    <Content Include="Views\Account\DeleteVoteRent.cshtml" />
     <Content Include="Views\Home\Result.cshtml" />
-    <Content Include="Views\Home\ChonSan.cshtml" />
-    <Content Include="Views\Account\PhieuDatSan.cshtml" />
-    <Content Include="Views\Account\SuaPhieuDatSan.cshtml" />
-    <Content Include="Views\Account\HoaDon.cshtml" />
-    <Content Include="Views\Account\ChiTietHoaDon.cshtml" />
-    <Content Include="Views\BangGia\GiaDichVu.cshtml" />
+    <Content Include="Views\Home\ChooseInfrastructure.cshtml" />
+    <Content Include="Views\Account\VoteRent.cshtml" />
+    <Content Include="Views\Account\EditVoteRent.cshtml" />
+    <Content Include="Views\Account\Bill.cshtml" />
+    <Content Include="Views\Account\DetailsBill.cshtml" />
+    <Content Include="Views\BangGia\ServicePrice.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Account\Csvc.cshtml" />
+    <Content Include="Views\Account\Infrastructure.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Admin\Views\PhongBan\" />
     <Folder Include="Content\Images\DichVu\" />
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,4 @@
 ﻿@model QLTT.Models.PhieuThueSan
-
 @{
     ViewBag.Title = "Đặt Sân";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
@@ -14,7 +13,7 @@
 <p>
     <a href="@Url.Action("Add","KhachHang")">Thêm Tài khoản khách hàng</a>
 </p>
-@using (Html.BeginForm("Create", "PhieuDatSan"))
+@using (Html.BeginForm("Create", "VoteRent"))
 {
     @Html.AntiForgeryToken()
     <div class="form-horizontal">

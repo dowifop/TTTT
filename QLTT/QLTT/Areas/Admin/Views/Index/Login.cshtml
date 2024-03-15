@@ -29,12 +29,12 @@
                     @Html.AntiForgeryToken()
                     @Html.ValidationSummary(true)
                     <div class="form-group">
-                        <label for="exampleInputEmail1"><h5>Tài Khoản</h5></label>
+                        <label for="exampleInputEmail1">Tài Khoản</label>
                         @Html.TextBoxFor(u => u.taiKhoan, null, new { @class = "form-control" })
                         @Html.ValidationMessageFor(u => u.taiKhoan)
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1"><h5>Mật Khẩu</h5></label>
+                        <label for="exampleInputPassword1">Mật Khẩu</label>
                         @Html.PasswordFor(u => u.matKhau, new { @class = "form-control" })
                         @Html.ValidationMessageFor(u => u.matKhau)
                     </div>

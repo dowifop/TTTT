@@ -18,7 +18,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
 
-        // GET: HoaDon
+        // GET: Bill
         public ActionResult Index()
         {
             var HoaDonTS = db.HoaDonTS.Where(t => t.maTinhTrang == 2).Include(t => t.NhanVien).Include(t => t.PhieuThueSan)
@@ -50,60 +50,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             ViewBag.tongTien = tong.ToString("C");
             return View(dshd);
         }
-
-        //public ActionResult Index(String beginDate)
-        //{
-        //    System.Diagnostics.Debug.WriteLine("your message here " + beginDate);
-        //    List<HoaDonT> dshd = new List<HoaDonT>();
-
-        //    string connString = db.Database.Connection.ConnectionString;  // replace with your actual connection string
-        //    StringBuilder query = new StringBuilder("SELECT * FROM HoaDonTS WHERE maTinhTrang=@maTinhTrang");
-
-        //    using (SqlConnection conn = new SqlConnection(connString))
-        //    {
-        //        using (SqlCommand cmd = new SqlCommand())
-        //        {
-        //            cmd.Connection = conn;
-        //            cmd.CommandType = CommandType.Text;
-        //            cmd.Parameters.AddWithValue("@maTinhTrang", 2);
-
-        //            if (!String.IsNullOrEmpty(beginDate))
-        //            {
-        //                query.Append(" AND NgayThue >= @beginDate");
-        //                cmd.Parameters.AddWithValue("@beginDate", beginDate);
-        //            }
-
-        //            cmd.CommandText = query.ToString();
-        //            conn.Open();
-        //            using (SqlDataReader reader = cmd.ExecuteReader())
-        //            {
-        //                while (reader.Read())
-        //                {
-        //                    var item = new HoaDonT
-        //                    {
-        //                        //populate the HoaDonT object here, e.g.,
-        //                        maTinhTrang = reader.GetInt32(reader.GetOrdinal("maTinhTrang")),
-        //                        tongTien = reader.GetInt32(reader.GetOrdinal("tongTien")),
-        //                        //you need to do this for all properties of HoaDonT
-        //                    };
-        //                    dshd.Add(item);
-        //                }
-        //            }
-        //        }
-        //    }
-
-        //    double tong = 0;
-        //    foreach (var item in dshd)
-        //    {
-        //        if (item.maTinhTrang == 2)
-        //        {
-        //            tong += (double)item.tongTien;
-        //        }
-        //    }
-        //    ViewBag.tongTien = tong.ToString("C");
-        //    return View(dshd);
-        //}
-        // GET: HoaDon/Details/5
+        // GET: Bill/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -118,7 +65,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(hoaDonT);
         }
 
-        // GET: HoaDon/Create
+        // GET: Bill/Create
         public ActionResult Create()
         {
             ViewBag.maNV = new SelectList(db.NhanViens, "maNV", "hotenNV");
@@ -127,7 +74,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View();
         }
 
-        // POST: HoaDon/Create
+        // POST: Bill/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -159,7 +106,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             }
             return View(phieuThueSan);
         }
-        // GET: HoaDon/Edit/5
+        // GET: Bill/EditService/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -177,7 +124,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(hoaDonT);
         }
 
-        // POST: HoaDon/Edit/5
+        // POST: Bill/EditService/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -196,7 +143,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(hoaDonT);
         }
 
-        // GET: HoaDon/Delete/5
+        // GET: Bill/DeleteService/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -211,8 +158,8 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(hoaDonT);
         }
 
-        // POST: HoaDon/Delete/5
-        [HttpPost, ActionName("Delete")]
+        // POST: Bill/DeleteService/5
+        [HttpPost, ActionName("DeleteService")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
@@ -238,26 +185,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             }
             else
             {
-                List<KhachHangKH> likh;
-                PhieuThueSan pt = db.PhieuThueSans.Find(Int32.Parse(maPT));
-                //if (pt.thong_tin_khach_hang_thue == null)
-                //{
-                //    likh = new List<KhachHangKH>();
-                //    likh.Add(new KhachHangKH("", ""));
-                //}
-                //else
-                //{
-                //    likh = JsonConvert.DeserializeObject<List<KhachHangKH>>(pt.thong_tin_khach_hang_thue);
-                //}
-                //if (!hotenKH1.Equals(""))
-                //    likh.Add(new KhachHangKH(hotenKH1, EmailKH1));
-                //if (!hotenKH2.Equals(""))
-                //    likh.Add(new KhachHangKH(hotenKH2, EmailKH2));
-                //if (!hotenKH3.Equals(""))
-                //    likh.Add(new KhachHangKH(hotenKH3, EmailKH3));
-                //if (!hotenKH4.Equals(""))
-                //    likh.Add(new KhachHangKH(hotenKH4, EmailKH4));
-                //pt.thong_tin_khach_hang_thue = JsonConvert.SerializeObject(likh);
+                PhieuThueSan pt = db.PhieuThueSans.Find(Int32.Parse(maPT));             
                 db.Entry(pt).State = EntityState.Modified;
                 db.SaveChanges();
 
@@ -292,7 +220,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             }
             return View();
         }
-        public ActionResult ThanhToan(int? id)
+        public ActionResult Pay(int? id)
         {
             if (id == null)
             {
@@ -305,29 +233,8 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             }
             DateTime ngayThue = (DateTime)tblHoaDon.PhieuThueSan.NgayThue;
             int soGioThue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;
-
             DateTime dateS = new DateTime(ngayThue.Year, ngayThue.Month, ngayThue.Day, 12, 0, 0);
-
             int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
-
-            //var songay = (dateE - dateS).TotalDays;
-            //if (dateS > ngay_vao)
-            //    songay++;
-            //if (ngay_ra > dateE)
-            //    songay++;
-            //var ti_le_phu_thu = tblHoaDon.tblPhieuDatPhong.tblPhong.tblLoaiPhong.ti_le_phu_thu;
-            //var so_ngay_phu_thu = Math.Abs(Math.Ceiling((ngay_ra - ngay_du_kien).TotalDays));
-
-            //System.Diagnostics.Debug.WriteLine("So ngay: " + so_ngay_phu_thu);
-            //System.Diagnostics.Debug.WriteLine("Gia: " + gia);
-            //System.Diagnostics.Debug.WriteLine("Ti le: :" + ti_le_phu_thu);
-
-            //var phuthu = so_ngay_phu_thu * gia * ti_le_phu_thu / 100;
-            //ViewBag.phu_thu = phuthu;
-
-            //System.Diagnostics.Debug.WriteLine("Phu thu:" + phuthu);
-
-            //ViewBag.so_ngay_phu_thu = so_ngay_phu_thu;
             var tienSan = soGioThue * gia;
             ViewBag.tienSan = tienSan;
             ViewBag.soGioThue = soGioThue;
@@ -352,9 +259,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             ViewBag.tongTien = tienSan + tongtiendv;
             return View(tblHoaDon);
         }
-
-
-        public ActionResult GoiDichVu(int? id)
+        public ActionResult CallService(int? id)
         {
             if (id == null)
             {
@@ -367,7 +272,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             ViewBag.maSoSan = db.HoaDonTS.Find(id).PhieuThueSan.San.maSoSan;
             return View(mod);
         }
-        public ActionResult XacNhanGoiDichVu(String maHDTS, String ma_dv, String so_luong)
+        public ActionResult ConfirmService(String maHDTS, String ma_dv, String so_luong)
         {
             if (maHDTS == null || ma_dv == null || so_luong == null)
             {
@@ -406,9 +311,9 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             {
 
             }
-            return RedirectToAction("GoiDichVu", "HoaDon", new { id = maHDTS });
+            return RedirectToAction("CallService", "Bill", new { id = maHDTS });
         }
-        public ActionResult SuaDichVu(String maHDTS, String edit_id, String edit_so_luong)
+        public ActionResult EditService(String maHDTS, String edit_id, String edit_so_luong)
         {
             if (maHDTS == null || edit_id == null || edit_so_luong == null)
             {
@@ -420,7 +325,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             int del = (int)(sol - dsdv.so_luong);
             if (del > dv.ton_kho)
             {
-                return RedirectToAction("GoiDichVu", "HoaDon", new { id = maHDTS });
+                return RedirectToAction("CallService", "Bill", new { id = maHDTS });
             }
             else
             {
@@ -431,20 +336,16 @@ namespace QLTT.Areas.Admin.Controllers.Admin
                 db.SaveChanges();
             }
 
-            return RedirectToAction("GoiDichVu", "HoaDon", new { id = maHDTS });
+            return RedirectToAction("CallService", "Bill", new { id = maHDTS });
         }
-        public ActionResult XoaDichVu(String maHDTS, String del_id)
+        public ActionResult DeleteService(String maHDTS, String del_id)
         {
             DichVuDaDat d = db.DichVuDaDats.Find(Int32.Parse(del_id));
             db.DichVuDaDats.Remove(d);
             db.SaveChanges();
-            return RedirectToAction("GoiDichVu", "HoaDon", new { id = maHDTS });
+            return RedirectToAction("CallService", "Bill", new { id = maHDTS });
         }
-
-
-      
-
-        public ActionResult XacNhanThanhToan(String maHDTS, String tienSan, String tiendichvu, String tongTien)
+        public ActionResult ConfirmPayment(String maHDTS, String tienSan, String tiendichvu, String tongTien)
         {
             if (maHDTS == null || tienSan == null || tiendichvu == null || tongTien == null)
             {
@@ -480,7 +381,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             ViewBag.maHDTS = maHDTS;
             return View();
         }
-        public ActionResult ChiTietHoaDon(int? id)
+        public ActionResult DetailBill(int? id)
         {
             if (id == null)
             {
@@ -497,26 +398,6 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             int soGioThue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;
             DateTime dateS = new DateTime(ngay_thue.Year, ngay_thue.Month, ngay_thue.Day, 12, 0, 0);
             int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
-
-            //var songay = (dateE - dateS).TotalDays;
-            //if (dateS > ngay_vao)
-            //    songay++;
-            //if (ngay_ra > dateE)
-            //    songay++;
-
-            //var ti_le_phu_thu = tblHoaDon.tblPhieuDatPhong.tblPhong.tblLoaiPhong.ti_le_phu_thu;
-            //var so_ngay_phu_thu = Math.Abs(Math.Ceiling((ngay_ra - ngay_du_kien).TotalDays));
-
-            //System.Diagnostics.Debug.WriteLine("So ngay: " + so_ngay_phu_thu);
-            //System.Diagnostics.Debug.WriteLine("Gia: " + gia);
-            //System.Diagnostics.Debug.WriteLine("Ti le: " + ti_le_phu_thu);
-
-            //var phuthu = so_ngay_phu_thu * gia * ti_le_phu_thu / 100;
-            //ViewBag.phu_thu = phuthu;
-
-            //System.Diagnostics.Debug.WriteLine("Phu thu: " + phuthu);
-
-            //ViewBag.so_ngay_phu_thu = so_ngay_phu_thu;
             var tienSan = soGioThue * gia;
             ViewBag.tienSan = tienSan;
             ViewBag.soGioThue = soGioThue;
@@ -548,7 +429,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
 
 
 
-        public ActionResult GiaHanSan(int? id)
+        public ActionResult Extend(int? id)
         {
             if (id == null)
             {
@@ -573,7 +454,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             ViewBag.dateMax = dt;
             return View(pdp);
         }
-        public ActionResult ResultGiaHan(String ma_pts, int soGioThue)
+        public ActionResult ResultExtend(String ma_pts, int soGioThue)
         {
             if (ma_pts == null)
             {

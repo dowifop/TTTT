@@ -61,7 +61,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(tblNhanVien);
         }
 
-        // GET: NhanVien/Edit/5
+        // GET: NhanVien/EditService/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -81,7 +81,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(tblNhanVien);
         }
 
-        // POST: NhanVien/Edit/5
+        // POST: NhanVien/EditService/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -102,7 +102,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(tblNhanVien);
         }
 
-        // GET: NhanVien/Delete/5
+        // GET: NhanVien/DeleteService/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -117,8 +117,8 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(tblNhanVien);
         }
 
-        // POST: NhanVien/Delete/5
-        [HttpPost, ActionName("Delete")]
+        // POST: NhanVien/DeleteService/5
+        [HttpPost, ActionName("DeleteService")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

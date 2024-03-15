@@ -67,11 +67,9 @@
                                 <td>
                                     @Html.DisplayFor(modelItem => item.tienSan)
                                 </td>
-                                @*<td>
-                                    @Html.DisplayFor(modelItem => item.tien_dich_vu)
-                                </td>*@
-
-                               
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tiendichvu)
+                                </td>                        
                                 <td>
                                     @Html.DisplayFor(modelItem => item.tongTien)
                                 </td>
@@ -82,7 +80,7 @@
                                     @*@Html.ActionLink("Edit", "Edit", new { id = item.ma_hd }) |
                                         @Html.ActionLink("Details", "Details", new { id = item.ma_hd }) |
                                         @Html.ActionLink("Delete", "Delete", new { id = item.ma_hd })*@
-                                    @Html.ActionLink("Chi tiết", "ChiTietHoaDon", new { id = item.maHDTS })
+                                    @Html.ActionLink("Chi tiết", "DetailsBill", new { id = item.maHDTS })
                                 </td>
                             </tr>
                         }
@@ -104,10 +102,9 @@
                                 <td>
                                     @Html.DisplayFor(modelItem => item.tienSan)
                                 </td>
-                                @*<td>
-                                    @Html.DisplayFor(modelItem => item.tien_dich_vu)
-                                </td>*@
-                               
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tiendichvu)
+                                </td>                            
                                 <td>
                                     @Html.DisplayFor(modelItem => item.tongTien)
                                 </td>
@@ -118,7 +115,7 @@
                                     @*@Html.ActionLink("Edit", "Edit", new { id = item.ma_hd }) |
                                         @Html.ActionLink("Details", "Details", new { id = item.ma_hd }) |
                                         @Html.ActionLink("Delete", "Delete", new { id = item.ma_hd })*@
-                                    @Html.ActionLink("Chi tiết", "ChiTietHoaDon", new { id = item.maHDTS })
+                                    @Html.ActionLink("Chi tiết", "DetailsBill", new { id = item.maHDTS })
                                 </td>
                             </tr>
                         }

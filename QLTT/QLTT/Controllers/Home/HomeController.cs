@@ -20,7 +20,6 @@ namespace QLTT.Controllers
 
         public ActionResult Index()
         {
-
             //List<TinNhan> dstn = db.TinNhans.OrderByDescending(t => t.ngay_gui).Take(5).ToList();
             //ViewBag.Dstn = dstn;
 
@@ -32,7 +31,6 @@ namespace QLTT.Controllers
 
             //// Truyền dữ liệu vào ViewBag hoặc Model
             //ViewBag.TinNhans = tinNhans;
-
             return View();
         }
 
@@ -152,20 +150,20 @@ namespace QLTT.Controllers
             }
             return View();
         }
-        public ActionResult suKien() {
+        public ActionResult Event() {
             return View();
 
         }
 
         [HttpGet]
-        public ActionResult FindSan()
+        public ActionResult Search()
         {
             return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
      
-        public ActionResult FindSan(String NgayThue, int soGioThue)
+        public ActionResult Search(String NgayThue, int soGioThue)
         {
             List<San> li = new List<San>();
             if (NgayThue.Equals("") || soGioThue <= 0)
@@ -184,9 +182,9 @@ namespace QLTT.Controllers
                 var phieuThueSansInMemory = db.PhieuThueSans.ToList();
 
                 var phieuThueSansFiltered = phieuThueSansInMemory
-     .Where(m => (m.maTinhTrang == 1 || m.maTinhTrang == 2) && m.NgayThue.HasValue)
-     .Select(m => new { m.maSan, m.soGioThue, NgayThue = m.NgayThue.Value })
-     .ToList(); 
+                                        .Where(m => (m.maTinhTrang == 1 || m.maTinhTrang == 2) && m.NgayThue.HasValue)
+                                        .Select(m => new { m.maSan, m.soGioThue, NgayThue = m.NgayThue.Value })
+                                        .ToList(); 
 
                 li = db.Sans.AsEnumerable() 
                     .Where(t => !phieuThueSansFiltered.Any(m =>
@@ -196,7 +194,7 @@ namespace QLTT.Controllers
             return View(li);
         }
 
-        public ActionResult TimSan(string id)
+        public ActionResult RentInfrastucture(string id)
         {
             try
             {
@@ -225,7 +223,7 @@ namespace QLTT.Controllers
             ViewBag.TinNhans = dstn;
             return View();
         }
-        public ActionResult HuyChon(string id)
+        public ActionResult Cancel(string id)
         {
             try
             {
@@ -243,13 +241,13 @@ namespace QLTT.Controllers
             }
             return View();
         }
-        public ActionResult BookSan()
+        public ActionResult Rent()
         {
             if (Session["KH"] == null)
             {
                 return RedirectToAction("Login", "Account");
             }
-            AutoHuyPhieuDatSan();
+            AutoCancelVoteRent();
             KhachHang kh = (KhachHang)Session["KH"];
             ViewBag.maKH = kh.maKH;
             ViewBag.hoTenKH = kh.hoTenKH;
@@ -274,7 +272,7 @@ namespace QLTT.Controllers
             var liP = db.PhieuThueSans.Where(u => u.maKH == kh.maKH && u.maTinhTrang == 1).ToList();
             return View(liP);
         }
-        private void AutoHuyPhieuDatSan()
+        private void AutoCancelVoteRent()
         {
             var datenow = DateTime.Now;
             var tblPhieuDatSans = db.PhieuThueSans.Where(u => u.maTinhTrang == 1).Include(t => t.KhachHang).Include(t => t.San).Include(t => t.tinhTrangPT).ToList();
@@ -326,10 +324,10 @@ namespace QLTT.Controllers
             return View();
         }
 
-        public ActionResult HuyPhieuDatSan()
+        public ActionResult Cancel()
         {
             setNull();
-            return RedirectToAction("BookSan", "Home");
+            return RedirectToAction("Rent", "Home");
         }
         private void setNull()
         {
@@ -352,9 +350,8 @@ namespace QLTT.Controllers
         {
             return View();
         }
-        public ActionResult ChonSan(string id)
-        {
-            
+        public ActionResult ChooseInfrastructure(string id)
+        {           
             try
             {
                 List<int> ds;
@@ -369,8 +366,7 @@ namespace QLTT.Controllers
             {
                 ViewBag.result = "error";
             }
-            return View();
-           
+            return View();          
         }
     }
 }
