@@ -207,7 +207,7 @@ insert into tinhTrangHD values (N'Chưa thanh toán')
 insert into tinhTrangHD values (N'Đã thanh toán')
 
 insert into LoaiSan values(N'Sân bóng đá', 120000, '/Content/Home/hinh/bgsan.png')
-insert into LoaiSan values(N'Hồ bơi', 50000, '/Content/Home/hình/bghoboi.png')
+insert into LoaiSan values(N'Hồ bơi', 50000, '/Content/Home/hinh/bghoboi.png')
 insert into LoaiSan values(N'Nhà thi đấu', 200000, '/Content/Home/hình/bgnhathidau.png')
 
 
