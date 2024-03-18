@@ -324,7 +324,7 @@ namespace QLTT.Controllers
             return View();
         }
 
-        public ActionResult Cancel()
+        public ActionResult CancelVoteRent()
         {
             setNull();
             return RedirectToAction("Rent", "Home");
