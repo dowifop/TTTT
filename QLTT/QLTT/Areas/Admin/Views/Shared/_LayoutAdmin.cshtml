@@ -46,7 +46,7 @@
                     </li>
                 }
                 <li class="nav-item nav-item-g" data-toggle="tooltip" data-placement="right" title="Tables">
-                    <a class="nav-link" href="@Url.Action("ChonCachDatSan", "Index")">
+                    <a class="nav-link" href="@Url.Action("ChooseRent", "Index")">
                         <i class="fa fa-fw fa-server"></i>
                         <span class="nav-link-text">Đặt Sân</span>
                     </a>
@@ -66,10 +66,10 @@
                     <ul class="sidenav-second-level collapse" id="collapseComponents">
 
                         <li>
-                            <a class="nav-link" href="@Url.Action("ListSanDangHoatDong", "Index")">Hủy thuê</a>
+                            <a class="nav-link" href="@Url.Action("ListOfActive", "Index")">Hủy thuê</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="@Url.Action("DSSanGoiDV", "Index")">Chọn dịch vụ</a>
+                            <a class="nav-link" href="@Url.Action("ListOfServiceCalled", "Index")">Chọn dịch vụ</a>
                         </li>
                     </ul>
                 </li>
@@ -220,7 +220,7 @@
                                 </h6>
                                 <div class="dropdown-divider"></div>
                                 <h6 class="dropdown-header">
-                                    <a href="@Url.Action("CaNhan","Index")"><i class="fa fa-user"></i> Cá Nhân</a></h6>
+                                    <a href="@Url.Action("Employee","Index")"><i class="fa fa-user"></i> Cá Nhân</a></h6>
                                     <div class="dropdown-divider"></div>
                                     <a data-toggle="modal" data-target="#exampleModal" class="dropdown-item small" href="#"><i class="fa fa-fw fa-sign-out"></i>Đăng Xuất</a>
 </div>
