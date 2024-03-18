@@ -74,15 +74,11 @@
                     {
                         <tr>
                             <td>
-                                @{
-                                    String m = (item.LoaiSan1.anh);
-                                    try
-                                    {
-                                        List<String> a = Newtonsoft.Json.JsonConvert.DeserializeObject<List<String>>(m);
-                                        <div class="thumb" onclick="clickImg(@item.LoaiSan1.Loai_San)" style="background-image:url(@a[0]);" />
 
-                                    }
-                                    catch { }
+                                @if (item.LoaiSan1 != null && !string.IsNullOrEmpty(item.LoaiSan1.anh))
+                                {
+                                    // Giả sử chuỗi anh là một đường dẫn hợp lệ và không phải là JSON
+                                    <img src="@Url.Content(item.LoaiSan1.anh)" height="120px" />
                                 }
                             </td>
                             <td>

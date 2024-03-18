@@ -167,7 +167,7 @@ namespace QLTT.Controllers.Home
             tblPhieuDatSan.maTinhTrang = 3;
             db.Entry(tblPhieuDatSan).State = EntityState.Modified;
             db.SaveChanges();
-            return RedirectToAction("Booksan", "Home");
+            return RedirectToAction("Rent", "Home");
         }
         protected override void Dispose(bool disposing)
         {

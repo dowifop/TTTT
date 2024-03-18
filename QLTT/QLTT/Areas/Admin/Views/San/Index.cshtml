@@ -41,15 +41,13 @@
                     {
                         <tr>
                             <td>
-                                @{
-                                    String m = (item.LoaiSan1.anh);
-                                    try
+                                
+                                    @if (item.LoaiSan1 != null && !string.IsNullOrEmpty(item.LoaiSan1.anh))
                                     {
-                                        List<String> a = Newtonsoft.Json.JsonConvert.DeserializeObject<List<String>>(m);
-                                        <div><img src="@a[0]" height="120px" /></div>
+                                        // Giả sử chuỗi anh là một đường dẫn hợp lệ và không phải là JSON
+                                        <img src="@Url.Content(item.LoaiSan1.anh)" height="120px" />
                                     }
-                                    catch { }
-                                }
+                                
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.maSoSan)

@@ -173,7 +173,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
 
      
-        [HttpPost, ActionName("DeleteService")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

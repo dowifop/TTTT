@@ -134,7 +134,7 @@ namespace QLTT.Areas.Admin.Controllers
         }
 
         // POST: KhachHang/DeleteService/5
-        [HttpPost, ActionName("DeleteService")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {

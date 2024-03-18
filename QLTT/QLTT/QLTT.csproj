@@ -576,7 +576,6 @@
     <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Index\Login.cshtml" />
-    <Content Include="Areas\Admin\Views\Index\Index.cshtml" />
     <Content Include="Areas\Admin\Views\KhachHang\Add.cshtml" />
     <Content Include="Areas\Admin\Views\KhachHang\Index.cshtml" />
     <Content Include="Areas\Admin\Views\KhachHang\Details.cshtml" />
@@ -627,6 +626,7 @@
     <Content Include="Areas\Admin\Views\Index\ChooseRent.cshtml" />
     <Content Include="Areas\Admin\Views\HoaDon\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Index\Search.cshtml" />
+    <Content Include="Areas\Admin\Views\Index\Index.cshtml" />
     <EntityDeploy Include="Models\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>

@@ -18,7 +18,10 @@ namespace QLTT.Areas.Admin.Controllers
         public ActionResult Index()
         {
             int so_san_trong = 0, so_san_sd = 0, so_san_don = 0;
-            var listSans = db.Sans.Where(t => t.maTinhTrang < 5).ToList();
+            var listSans = db.Sans.Where(t => t.maTinhTrang < 5).Include(t => t.LoaiSan1)
+                     .Include(t => t.TinhTrangSan)
+                     .Include(t => t.PhieuThueSans) // Đảm bảo rằng bạn đã thêm dòng này
+                     .ToList();
             foreach (var item in listSans)
             {
                 if (item.maTinhTrang == 1)
@@ -98,7 +101,7 @@ namespace QLTT.Areas.Admin.Controllers
             int ma_hd = db.HoaDonTS.Where(u => u.PhieuThueSan.maSan == id && u.maTinhTrang == 1).First().maHDTS;
             return RedirectToAction("Pay", "Bill", new { id = ma_hd });
         }
-        public ActionResult FindHdById2(int? id)
+        public ActionResult FindBill2(int? id)
         {
             if (id == null)
             {

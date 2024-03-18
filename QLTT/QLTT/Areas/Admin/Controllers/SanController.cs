@@ -115,7 +115,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
 
         // POST: Phong/DeleteService/5
-        [HttpPost, ActionName("DeleteService")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

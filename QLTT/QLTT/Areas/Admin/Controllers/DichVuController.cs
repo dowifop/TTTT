@@ -148,7 +148,7 @@ namespace QLTT.Areas.Admin.Controllers
         }
 
         // POST: DichVu/DeleteService/5
-        [HttpPost, ActionName("DeleteService")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
