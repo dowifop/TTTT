@@ -54,7 +54,7 @@
                 <tbody>
                     @foreach (var item in Model)
                     {
-
+                        
                         <tr>
                             <td>@item.maSoSan</td>
                             <td>
@@ -70,22 +70,24 @@
                                 }
                             </td>
                             <td>
-                            @if (item.PhieuThueSans.Any())
-                            {
-                                var phieuThue = item.PhieuThueSans.First();
-                                @phieuThue.NgayThue 
-                               
-                               
-                            }
-                            else
-                            {
-                                @:Chưa thuê
-                            }
+                                @if (item.PhieuThueSans.Any())
+                                {
+                                    var phieuThue = item.PhieuThueSans.First();
+                                    if (phieuThue.NgayThue.HasValue)
+                                    {
+                                        @phieuThue.NgayThue.Value.ToString("dd/MM/yyyy")
+                                    }
+                                }
+                                else
+                                {
+                                    @:Chưa thuê
+                                }
                             </td>
                             <td>
                                 @if (item.PhieuThueSans.Any())
                                 {
                                     var phieuThue = item.PhieuThueSans.First();
+                                   
                                     @phieuThue.soGioThue
 
 
