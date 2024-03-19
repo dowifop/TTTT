@@ -311,7 +311,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             {
 
             }
-            return RedirectToAction("CallService", "Bill", new { id = maHDTS });
+            return RedirectToAction("CallService", "HoaDon", new { id = maHDTS });
         }
         public ActionResult EditService(String maHDTS, String edit_id, String edit_so_luong)
         {
@@ -325,7 +325,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             int del = (int)(sol - dsdv.so_luong);
             if (del > dv.ton_kho)
             {
-                return RedirectToAction("CallService", "Bill", new { id = maHDTS });
+                return RedirectToAction("CallService", "HoaDon", new { id = maHDTS });
             }
             else
             {
@@ -336,14 +336,14 @@ namespace QLTT.Areas.Admin.Controllers.Admin
                 db.SaveChanges();
             }
 
-            return RedirectToAction("CallService", "Bill", new { id = maHDTS });
+            return RedirectToAction("CallService", "HoaDon", new { id = maHDTS });
         }
         public ActionResult DeleteService(String maHDTS, String del_id)
         {
             DichVuDaDat d = db.DichVuDaDats.Find(Int32.Parse(del_id));
             db.DichVuDaDats.Remove(d);
             db.SaveChanges();
-            return RedirectToAction("CallService", "Bill", new { id = maHDTS });
+            return RedirectToAction("CallService", "HoaDon", new { id = maHDTS });
         }
         public ActionResult ConfirmPayment(String maHDTS, String tienSan, String tiendichvu, String tongTien)
         {

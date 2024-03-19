@@ -26,7 +26,6 @@
                     <tr>
                         <th>SS</th>
                         <th>Loại Sân</th>
-                        @*<th>Khu Vực</th>*@
                         <th>Ngày thuê</th>
                         <th>Số giờ thuê</th>
                         <th>Tình trạng</th>
@@ -37,7 +36,6 @@
                     <tr>
                         <th>SS</th>
                         <th>Loại Sân</th>
-                        @*<th>Khu Vực</th>*@
                         <th>Ngày thuê</th>
                         <th>Số giờ thuê</th>
                         <th>Tình trạng</th>
@@ -51,14 +49,13 @@
                         <tr>
                             <td>@item.PhieuThueSan.San.maSoSan</td>
                             <td>@item.PhieuThueSan.San.LoaiSan1.moTa</td>
-                            @*<td>@item.PhieuThueSan.San.tblTang.ten_tang</td>*@
                             <td>@item.PhieuThueSan.NgayThue.Value.ToShortDateString()</td>
                             <td>@item.PhieuThueSan.soGioThue</td>
                             <td><span class="badge badge-danger badge-g">@item.PhieuThueSan.San.TinhTrangSan.mota</span></td>
                             <td>
-                                <a href="@Url.Action("Pay","Bill",new { id = item.maHDTS})"><div class="btn btn-danger badge-g">Trả Sân</div></a>
-                                <a href="@Url.Action("Extend","Bill",new { id = item.maHDTS})"><div class="btn btn-info badge-g">Gia Hạn</div></a>
-                                @*<a href="@Url.Action("DoiSan","HoaDon",new { id = item.maHDTS})"><div class="btn btn-secondary badge-g">Đổi sân</div></a>*@
+                                <a href="@Url.Action("Pay","HoaDon",new { id = item.maHDTS})"><div class="btn btn-danger badge-g">Trả Sân</div></a>
+                                <a href="@Url.Action("Extend","HoaDon",new { id = item.maHDTS})"><div class="btn btn-info badge-g">Gia Hạn</div></a>
+                                <a href="@Url.Action("DoiSan","HoaDon",new { id = item.maHDTS})"><div class="btn btn-secondary badge-g">Đổi sân</div></a>
                             </td>
                         </tr>
                     }

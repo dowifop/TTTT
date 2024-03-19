@@ -35,30 +35,7 @@ namespace QLTT.Areas.Admin.Controllers
             return View(khachHang);
         }
 
-        // GET: KhachHang/Create
-        public ActionResult Register()
-        {
-            return View();
-        }
-
-        // POST: KhachHang/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Register([Bind(Include = "maKH,matKhau,hoTenKH,diaChiKH,sdtKH,emailKH")] KhachHang khachHang)
-        {
-            if (ModelState.IsValid)
-            {
-                db.KhachHangs.Add(khachHang);
-                db.SaveChanges();
-                Session["KH"] = khachHang;
-                return RedirectToAction("BookRoom", "TrangChu");
-            }
-
-            return View(khachHang);
-        }
-
+     
         public ActionResult Add()
         {
             return View();
