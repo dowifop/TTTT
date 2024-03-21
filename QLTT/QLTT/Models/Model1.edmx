@@ -108,7 +108,7 @@
           </Key>
           <Property Name="maSan" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="maSoSan" Type="char" MaxLength="10" />
-          <Property Name="LoaiSan" Type="int" />
+          <Property Name="Loai_San" Type="int" />
           <Property Name="maTinhTrang" Type="int" />
         </EntityType>
         <EntityType Name="SuKien">
@@ -300,7 +300,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__San__LoaiSan__5070F446">
+        <Association Name="FK__San__Loai_San__5070F446">
           <End Role="LoaiSan" Type="Self.LoaiSan" Multiplicity="0..1" />
           <End Role="San" Type="Self.San" Multiplicity="*" />
           <ReferentialConstraint>
@@ -308,7 +308,7 @@
               <PropertyRef Name="Loai_San" />
             </Principal>
             <Dependent Role="San">
-              <PropertyRef Name="LoaiSan" />
+              <PropertyRef Name="Loai_San" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -412,7 +412,7 @@
             <End Role="NhanVien" EntitySet="NhanVien" />
             <End Role="PhieuThueSan" EntitySet="PhieuThueSan" />
           </AssociationSet>
-          <AssociationSet Name="FK__San__LoaiSan__5070F446" Association="Self.FK__San__LoaiSan__5070F446">
+          <AssociationSet Name="FK__San__Loai_San__5070F446" Association="Self.FK__San__Loai_San__5070F446">
             <End Role="LoaiSan" EntitySet="LoaiSan" />
             <End Role="San" EntitySet="San" />
           </AssociationSet>
@@ -503,7 +503,7 @@
           <Property Name="moTa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="giaThue" Type="Int32" />
           <Property Name="anh" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-          <NavigationProperty Name="Sans" Relationship="Self.FK__San__LoaiSan__5070F446" FromRole="LoaiSan" ToRole="San" />
+          <NavigationProperty Name="Sans" Relationship="Self.FK__San__Loai_San__5070F446" FromRole="LoaiSan" ToRole="San" />
         </EntityType>
         <EntityType Name="NhanVien">
           <Key>
@@ -560,9 +560,9 @@
           </Key>
           <Property Name="maSan" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="maSoSan" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
-          <Property Name="LoaiSan" Type="Int32" />
+          <Property Name="Loai_San" Type="Int32" />
           <Property Name="maTinhTrang" Type="Int32" />
-          <NavigationProperty Name="LoaiSan1" Relationship="Self.FK__San__LoaiSan__5070F446" FromRole="San" ToRole="LoaiSan" />
+          <NavigationProperty Name="LoaiSan" Relationship="Self.FK__San__Loai_San__5070F446" FromRole="San" ToRole="LoaiSan" />
           <NavigationProperty Name="PhieuThueSans" Relationship="Self.FK__PhieuThue__maSan__534D60F1" FromRole="San" ToRole="PhieuThueSan" />
           <NavigationProperty Name="TinhTrangSan" Relationship="Self.FK__San__maTinhTrang__4F7CD00D" FromRole="San" ToRole="TinhTrangSan" />
         </EntityType>
@@ -725,7 +725,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__San__LoaiSan__5070F446">
+        <Association Name="FK__San__Loai_San__5070F446">
           <End Role="LoaiSan" Type="Self.LoaiSan" Multiplicity="0..1" />
           <End Role="San" Type="Self.San" Multiplicity="*" />
           <ReferentialConstraint>
@@ -733,7 +733,7 @@
               <PropertyRef Name="Loai_San" />
             </Principal>
             <Dependent Role="San">
-              <PropertyRef Name="LoaiSan" />
+              <PropertyRef Name="Loai_San" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -861,7 +861,7 @@
             <End Role="KhachHang" EntitySet="KhachHangs" />
             <End Role="TinNhan" EntitySet="TinNhans" />
           </AssociationSet>
-          <AssociationSet Name="FK__San__LoaiSan__5070F446" Association="Self.FK__San__LoaiSan__5070F446">
+          <AssociationSet Name="FK__San__Loai_San__5070F446" Association="Self.FK__San__Loai_San__5070F446">
             <End Role="LoaiSan" EntitySet="LoaiSans" />
             <End Role="San" EntitySet="Sans" />
           </AssociationSet>
@@ -1007,7 +1007,7 @@
               <MappingFragment StoreEntitySet="San">
                 <ScalarProperty Name="maSan" ColumnName="maSan" />
                 <ScalarProperty Name="maSoSan" ColumnName="maSoSan" />
-                <ScalarProperty Name="LoaiSan" ColumnName="LoaiSan" />
+                <ScalarProperty Name="Loai_San" ColumnName="Loai_San" />
                 <ScalarProperty Name="maTinhTrang" ColumnName="maTinhTrang" />
               </MappingFragment>
             </EntityTypeMapping>

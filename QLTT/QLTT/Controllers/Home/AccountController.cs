@@ -234,7 +234,7 @@ namespace QLTT.Controllers.Home
                 }
                 DateTime ngay_bat_dau = ngay_thue;
                 DateTime ngay_ket_thuc = ngay_thue.AddHours(so_gio_thue);
-                double gia = (double)hoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
+                double gia = (double)hoaDon.PhieuThueSan.San.LoaiSan.giaThue;
                 var so_gio = (ngay_ket_thuc - ngay_bat_dau).TotalHours;
                 var tien_San = so_gio * gia;
                 hoaDon.tienSan = (int)tien_San;
@@ -293,7 +293,7 @@ namespace QLTT.Controllers.Home
             }
             DateTime ngay_thue = (DateTime)tblHoaDon.PhieuThueSan.NgayThue;
             int so_gio_thue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;  // giả định soGioThue là int?
-            int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
+            int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan.giaThue;
             var tien_San = so_gio_thue  * gia;  // Chuyển số giờ thuê thành số ngày
             ViewBag.tienSan = tien_San;
             ViewBag.soGioThue = so_gio_thue;

@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="9e863cefb8c043aa9a9ab5a5a0157306" Name="Diagram1">
+      <Diagram DiagramId="8fe12bc06ee54ec9899d8637a0a07537" Name="Diagram1">
         <EntityTypeShape EntityType="QlyTheThaoModel.ChucVu" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="QlyTheThaoModel.DichVu" Width="1.5" PointX="7.5" PointY="2.75" IsExpanded="true" />
         <EntityTypeShape EntityType="QlyTheThaoModel.DichVuDaDat" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
@@ -29,7 +29,7 @@
         <AssociationConnector Association="QlyTheThaoModel.FK__PhieuThueS__maKH__5535A963" ManuallyRouted="false" />
         <AssociationConnector Association="QlyTheThaoModel.FK__SuKien__maKH__3D5E1FD2" ManuallyRouted="false" />
         <AssociationConnector Association="QlyTheThaoModel.FK__TinNhan__ma_kh__47DBAE45" ManuallyRouted="false" />
-        <AssociationConnector Association="QlyTheThaoModel.FK__San__LoaiSan__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="QlyTheThaoModel.FK__San__Loai_San__5070F446" ManuallyRouted="false" />
         <AssociationConnector Association="QlyTheThaoModel.FK__NhanVien__maPH__4AB81AF0" ManuallyRouted="false" />
         <AssociationConnector Association="QlyTheThaoModel.FK__NhanVien__maSK__4CA06362" ManuallyRouted="false" />
         <AssociationConnector Association="QlyTheThaoModel.FK__PhieuThueS__maNV__5441852A" ManuallyRouted="false" />

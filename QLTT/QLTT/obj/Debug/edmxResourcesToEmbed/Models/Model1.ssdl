@@ -103,7 +103,7 @@
     </Key>
     <Property Name="maSan" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="maSoSan" Type="char" MaxLength="10" />
-    <Property Name="LoaiSan" Type="int" />
+    <Property Name="Loai_San" Type="int" />
     <Property Name="maTinhTrang" Type="int" />
   </EntityType>
   <EntityType Name="SuKien">
@@ -295,7 +295,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__San__LoaiSan__5070F446">
+  <Association Name="FK__San__Loai_San__5070F446">
     <End Role="LoaiSan" Type="Self.LoaiSan" Multiplicity="0..1" />
     <End Role="San" Type="Self.San" Multiplicity="*" />
     <ReferentialConstraint>
@@ -303,7 +303,7 @@
         <PropertyRef Name="Loai_San" />
       </Principal>
       <Dependent Role="San">
-        <PropertyRef Name="LoaiSan" />
+        <PropertyRef Name="Loai_San" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -407,7 +407,7 @@
       <End Role="NhanVien" EntitySet="NhanVien" />
       <End Role="PhieuThueSan" EntitySet="PhieuThueSan" />
     </AssociationSet>
-    <AssociationSet Name="FK__San__LoaiSan__5070F446" Association="Self.FK__San__LoaiSan__5070F446">
+    <AssociationSet Name="FK__San__Loai_San__5070F446" Association="Self.FK__San__Loai_San__5070F446">
       <End Role="LoaiSan" EntitySet="LoaiSan" />
       <End Role="San" EntitySet="San" />
     </AssociationSet>

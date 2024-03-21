@@ -234,7 +234,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             DateTime ngayThue = (DateTime)tblHoaDon.PhieuThueSan.NgayThue;
             int soGioThue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;
             DateTime dateS = new DateTime(ngayThue.Year, ngayThue.Month, ngayThue.Day, 12, 0, 0);
-            int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
+            int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan.giaThue;
             var tienSan = soGioThue * gia;
             ViewBag.tienSan = tienSan;
             ViewBag.soGioThue = soGioThue;
@@ -397,7 +397,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             DateTime ngay_thue = (DateTime)tblHoaDon.ngayThueSan;
             int soGioThue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;
             DateTime dateS = new DateTime(ngay_thue.Year, ngay_thue.Month, ngay_thue.Day, 12, 0, 0);
-            int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
+            int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan.giaThue;
             var tienSan = soGioThue * gia;
             ViewBag.tienSan = tienSan;
             ViewBag.soGioThue = soGioThue;
@@ -426,8 +426,6 @@ namespace QLTT.Areas.Admin.Controllers.Admin
 
             return View(tblHoaDon);
         }
-
-
 
         public ActionResult Extend(int? id)
         {
@@ -467,6 +465,50 @@ namespace QLTT.Areas.Admin.Controllers.Admin
                 ViewBag.result = "success";
                 ViewBag.soGioThue = soGioThue;
                 db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                ViewBag.result = "error: " + e;
+            }
+            return View();
+        }
+        public ActionResult ChangeInfrastructure(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            HoaDonT hoaDon = db.HoaDonTS.Find(id);
+            if (hoaDon == null)
+            {
+                return HttpNotFound();
+            }
+            PhieuThueSan pdp = db.PhieuThueSans.Find(hoaDon.maPT);
+
+            var li = db.Sans.Where(t => t.maTinhTrang == 1 && !(db.PhieuThueSans.Where(m => (m.maTinhTrang == 1 || m.maTinhTrang == 2))).Select(m => m.maSan).ToList().Contains(t.maSan));
+            ViewBag.maSanMoi = new SelectList(li, "maSan", "maSoSan");
+            return View(pdp);
+        }
+
+        public ActionResult ResultChangeInfrastructure(String maPT, String maSanCu, String maSanMoi)
+        {
+            if (maPT == null || maSanCu == null || maSanMoi == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            try
+            {
+                PhieuThueSan pt = db.PhieuThueSans.Find(Int32.Parse(maPT));
+                San s = db.Sans.Find(pt.San.maSan);
+                s.maTinhTrang = 3;
+                db.Entry(s).State = EntityState.Modified;
+                pt.maSan = Int32.Parse(maSanMoi);
+                s = db.Sans.Find(Int32.Parse(maSanMoi));
+                s.maTinhTrang = 2;
+                db.Entry(s).State = EntityState.Modified;
+                db.Entry(pt).State = EntityState.Modified;
+                db.SaveChanges();
+                ViewBag.result = "success";
             }
             catch (Exception e)
             {

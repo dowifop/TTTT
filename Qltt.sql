@@ -113,11 +113,11 @@ CREATE TABLE San
 (
   maSan INT IDENTITY(1,1) NOT NULL,
   maSoSan char(10)  NULL,
-  LoaiSan INT NULL,
+  Loai_San INT NULL,
   maTinhTrang INT NULL,
   PRIMARY KEY (maSan),
   FOREIGN KEY (maTinhTrang) REFERENCES TinhTrangSan(maTinhTrang),
-  FOREIGN KEY (LoaiSan) REFERENCES LoaiSan(Loai_San)
+  FOREIGN KEY (Loai_San) REFERENCES LoaiSan(Loai_San)
 );
 
 CREATE TABLE PhieuThueSan

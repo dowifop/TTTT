@@ -112,7 +112,7 @@
         <MappingFragment StoreEntitySet="San">
           <ScalarProperty Name="maSan" ColumnName="maSan" />
           <ScalarProperty Name="maSoSan" ColumnName="maSoSan" />
-          <ScalarProperty Name="LoaiSan" ColumnName="LoaiSan" />
+          <ScalarProperty Name="Loai_San" ColumnName="Loai_San" />
           <ScalarProperty Name="maTinhTrang" ColumnName="maTinhTrang" />
         </MappingFragment>
       </EntityTypeMapping>

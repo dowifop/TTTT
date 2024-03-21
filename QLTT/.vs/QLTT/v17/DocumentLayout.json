@@ -3,60 +3,192 @@
   "WorkspaceRootPath": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\dichvu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\dichvu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\changeinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\changeinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\dowif\\documents\\github\\tttt\\qltt\\qltt\\areas\\admin\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\sancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\sancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\phieudatsancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\phieudatsancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\loaisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\loaisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\dowif\\documents\\github\\tttt\\qltt\\qltt\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\callservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\callservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\extend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\extend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\controllers\\home\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\controllers\\home\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\home\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\rentinfrastucture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\home\\rentinfrastucture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\controllers\\home\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\controllers\\home\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\applicationinsights.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\applicationinsights.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\favicon.ico||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\favicon.ico||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\phieudatsan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\phieudatsan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\phieudatsancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\phieudatsancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\loaisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\loaisancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\dichvucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\sancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\sancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\detailbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\detailbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\detailsbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\detailsbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\phieudatsan\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\phieudatsan\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\phieudatsan\\selectinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\phieudatsan\\selectinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\listofservicecalled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\listofservicecalled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\listofactive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\listofactive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\dowif\\documents\\github\\tttt\\qltt\\qltt\\areas\\admin\\views\\index\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\chooserent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\chooserent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\dichvu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\dichvu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\dichvu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\dichvu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\ads.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\ads.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\resultchangeinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\resultchangeinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\extend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\extend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,14 +203,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./QLTT/True/SqlTable/dbo.San.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\san\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -109,10 +233,6 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\nhanvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\phieudatsan\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\phieudatsan\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\loaisan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\loaisan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -125,20 +245,8 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\loaisan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\controllers\\home\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\controllers\\home\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\controllers\\home\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\controllers\\home\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\deletevoterent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\deletevoterent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\home\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\chooseinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -147,10 +255,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\home\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\chooserent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\chooserent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -167,10 +271,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\home\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\home\\rentinfrastucture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\home\\rentinfrastucture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\banggia\\serviceprice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -217,20 +317,8 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\editvoterent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\detailsbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\detailsbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\views\\account\\ads.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\account\\ads.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\san\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -239,14 +327,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\san\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\san\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\phieudatsan\\selectinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\phieudatsan\\selectinfrastructure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\phieudatsan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\phieudatsan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\phieudatsan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -265,10 +345,6 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\phieudatsan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -277,24 +353,12 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\nhanvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\khachhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\listofservicecalled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\listofservicecalled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\khachhang\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\khachhang\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\callservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\callservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\loaisan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -309,24 +373,12 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\khachhang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\index\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\index\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\resultextend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\resultextend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -337,10 +389,6 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\detailbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\detailbill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -349,16 +397,8 @@
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\hoadon\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\hoadon\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\dichvu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\dichvu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\dichvu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\dichvu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -389,38 +429,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:30:13.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IndexController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
-              "ViewState": "AQIAALsAAAAAAAAAAAAkwD4AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T15:51:14.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "KhachHangController.cs",
               "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\KhachHangController.cs",
               "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\KhachHangController.cs",
               "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\KhachHangController.cs",
               "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\KhachHangController.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAUwIoAAAABAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAxwD4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T16:03:11.287Z",
               "EditorCaption": ""
@@ -428,959 +442,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoaiSanController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAUwBMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T16:49:20.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NhanVienController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAuwHUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:18:01.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PhieuDatSanController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAAAK8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T16:49:19.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:16:05.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DichVuController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAALIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:28:48.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SanController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAAAGEAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T16:49:18.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HoaDonController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwFcBAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T16:48:36.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Extend.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:41:54.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ListOfActive.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:59:49.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-18T18:33:28.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:09:00.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAADgAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-18T16:34:51.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Search.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Search.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Search.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Search.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T07:58:30.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAADgvzAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:04:17.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "dbo.LoaiSan [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/./QLTT/True/SqlTable/dbo.LoaiSan.sql",
-              "ToolTip": "dbo.LoaiSan [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-18T18:07:20.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "dbo.San [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/./QLTT/True/SqlTable/dbo.San.sql",
-              "ToolTip": "dbo.San [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-18T18:21:48.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:09:05.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:03:11.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:03:24.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:58:48.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:15:56.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAACsAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:15:57.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:18:43.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:47:18.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:47:11.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:44:03.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\AccountController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Controllers\\Home\\AccountController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\AccountController.cs",
-              "RelativeToolTip": "QLTT\\Controllers\\Home\\AccountController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAABoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T18:04:36.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\HomeController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Controllers\\Home\\HomeController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\HomeController.cs",
-              "RelativeToolTip": "QLTT\\Controllers\\Home\\HomeController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAlwI4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T08:01:14.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:15:15.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAADwv1UAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:59:43.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DeleteVoteRent.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:23:52.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Rent.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Rent.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Rent.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Rent.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Rent.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:18:49.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ChooseInfrastructure.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:31:36.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Cancel.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Cancel.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Cancel.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Cancel.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Cancel.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T07:57:04.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ChooseRent.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:51:34.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Event.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Event.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Event.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Event.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Event.cshtml",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAIQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:31:57.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:35:25.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKsAAAAAAAAAAAAAALgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:32:09.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Result.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Result.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Result.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Result.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Result.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:07:54.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RentInfrastucture.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\RentInfrastucture.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\RentInfrastucture.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\RentInfrastucture.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\RentInfrastucture.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAGMAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T07:58:29.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ServicePrice.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\ServicePrice.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\BangGia\\ServicePrice.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\ServicePrice.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\BangGia\\ServicePrice.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:30:51.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T12:08:33.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Upload.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Upload.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Upload.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Upload.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Upload.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:35:08.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Slider.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Slider.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Slider.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Slider.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Home\\Slider.cshtml",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwEEAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:07:53.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Price.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\Price.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\BangGia\\Price.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\Price.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\BangGia\\Price.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T12:08:09.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "VoteRent.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\VoteRent.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\VoteRent.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\VoteRent.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\VoteRent.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:30:43.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAF0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:30:09.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAuwCcAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:28:42.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Infrastructure.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Infrastructure.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Infrastructure.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Infrastructure.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\Infrastructure.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:28:38.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "BangGiaController.cs",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\BangGiaController.cs",
-              "RelativeDocumentMoniker": "QLTT\\Controllers\\Home\\BangGiaController.cs",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\BangGiaController.cs",
-              "RelativeToolTip": "QLTT\\Controllers\\Home\\BangGiaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T18:08:48.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "EditVoteRent.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\EditVoteRent.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\EditVoteRent.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\EditVoteRent.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\EditVoteRent.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAADwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:28:12.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "DetailsBill.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DetailsBill.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\DetailsBill.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DetailsBill.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\DetailsBill.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:20:28.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Customer.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Customer.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Customer.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Customer.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\Customer.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:20:20.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Bill.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Bill.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Bill.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Bill.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\Bill.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAHYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:23:41.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Ads.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Ads.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Ads.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Ads.cshtml",
-              "RelativeToolTip": "QLTT\\Views\\Account\\Ads.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:20:13.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:03:35.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:03:30.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:00:30.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFIAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T18:00:05.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAA8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:16:11.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:15:52.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:16:05.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAADoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:47:53.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAAAAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:15:26.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "SelectInfrastructure.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:16:24.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:59:57.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:59:14.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAE4AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:16:53.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "ListOfServiceCalled.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:57:08.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEwAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:16:47.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "CallService.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAuwCwAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:22:35.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:31:25.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAE8AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:19:06.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T17:18:50.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "Employee.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAA8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:50:27.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "ResultExtend.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:47:26.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "Pay.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAAAK8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:43:26.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:38:17.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:33:50.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
               "Title": "ConfirmPayment.cshtml",
               "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ConfirmPayment.cshtml",
               "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ConfirmPayment.cshtml",
@@ -1392,43 +453,465 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:30:36.919Z"
+              "DocumentIndex": 7,
+              "Title": "IndexController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\IndexController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA2wDEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T15:51:14.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "Result.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:47:18.989Z"
+              "DocumentIndex": 6,
+              "Title": "HoaDonController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "ViewState": "AQIAAAgBAAAAAAAAAAA4wBIBAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:48:36.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:00:30.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:59:14.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChangeInfrastructure.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ChangeInfrastructure.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ChangeInfrastructure.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ChangeInfrastructure.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ChangeInfrastructure.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T16:25:39.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CallService.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\CallService.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:22:35.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Controllers\\Home\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\HomeController.cs",
+              "RelativeToolTip": "QLTT\\Controllers\\Home\\HomeController.cs",
+              "ViewState": "AQIAABwBAAAAAAAAAAAQwDEBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T08:01:14.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rent.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Rent.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Rent.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Rent.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Rent.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAABIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:18:49.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RentInfrastucture.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\RentInfrastucture.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\RentInfrastucture.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\RentInfrastucture.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\RentInfrastucture.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAGMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T07:58:29.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\AccountController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Controllers\\Home\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\AccountController.cs",
+              "RelativeToolTip": "QLTT\\Controllers\\Home\\AccountController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAkwA8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T18:04:36.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAAJcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T16:34:51.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Web.config",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Web.config",
+              "RelativeToolTip": "QLTT\\Views\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-15T16:15:55.176Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-19T17:49:21.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 14,
+              "Title": "ApplicationInsights.config",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\ApplicationInsights.config",
+              "RelativeDocumentMoniker": "QLTT\\ApplicationInsights.config",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\ApplicationInsights.config",
+              "RelativeToolTip": "QLTT\\ApplicationInsights.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-19T17:49:20.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "favicon.ico",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\favicon.ico",
+              "RelativeDocumentMoniker": "QLTT\\favicon.ico",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\favicon.ico",
+              "RelativeToolTip": "QLTT\\favicon.ico",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-03-19T17:49:19.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Global.asax.cs",
+              "RelativeDocumentMoniker": "QLTT\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Global.asax.cs",
+              "RelativeToolTip": "QLTT\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T17:49:17.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\packages.config",
+              "RelativeDocumentMoniker": "QLTT\\packages.config",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\packages.config",
+              "RelativeToolTip": "QLTT\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-19T17:49:16.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Startup.cs",
+              "RelativeDocumentMoniker": "QLTT\\Startup.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Startup.cs",
+              "RelativeToolTip": "QLTT\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T17:49:14.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Web.config",
+              "RelativeDocumentMoniker": "QLTT\\Web.config",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Web.config",
+              "RelativeToolTip": "QLTT\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-19T17:49:13.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PhieuDatSanController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\PhieuDatSanController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:49:19.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Add.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Add.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Add.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Add.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAASwCAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T17:14:40.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DetailBill.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAASwDEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:46:50.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SanController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\SanController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAA0wGEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:49:18.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DichVuController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\DichVuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:28:48.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoaiSanController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\LoaiSanController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T16:49:20.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Index.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAkwJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:15:26.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DetailsBill.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DetailsBill.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\DetailsBill.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DetailsBill.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\DetailsBill.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAASwCwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:20:28.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Pay.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Pay.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAASwDAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:43:26.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAASwF8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:47:12.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\List.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:15:15.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SelectInfrastructure.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\SelectInfrastructure.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:16:24.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Search.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:09:05.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:09:00.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ListOfServiceCalled.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfServiceCalled.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:57:08.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Models\\KhachHang.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIA4wBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T15:30:13.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ListOfActive.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\ListOfActive.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:59:49.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Index.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T18:33:28.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Employee.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\Employee.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:50:27.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ChooseRent.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\Index\\ChooseRent.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:51:34.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Delete.cshtml",
               "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Delete.cshtml",
@@ -1440,7 +923,697 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:16:05.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Ads.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Ads.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Ads.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Ads.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\Ads.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:20:13.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ResultChangeInfrastructure.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultChangeInfrastructure.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultChangeInfrastructure.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultChangeInfrastructure.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultChangeInfrastructure.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T16:26:00.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Bill.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Bill.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Bill.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Bill.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\Bill.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:23:41.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAuwHUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:18:01.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Extend.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Extend.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:41:54.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Search.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Search.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Search.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T07:58:30.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAADgvzAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:04:17.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "dbo.LoaiSan [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./QLTT/True/SqlTable/dbo.LoaiSan.sql",
+              "ToolTip": "dbo.LoaiSan [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-18T18:07:20.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "dbo.San [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./QLTT/True/SqlTable/dbo.San.sql",
+              "ToolTip": "dbo.San [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-18T18:21:48.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:03:11.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:03:24.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:58:48.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:15:56.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAACsAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:15:57.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Delete.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:18:43.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Edit.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:47:18.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:47:11.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:44:03.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Delete.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAADwv1UAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:59:43.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DeleteVoteRent.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\DeleteVoteRent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:23:52.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ChooseInfrastructure.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\ChooseInfrastructure.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:31:36.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Cancel.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Cancel.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Cancel.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Cancel.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Cancel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T07:57:04.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Event.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Event.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Event.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Event.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Event.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAIQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:31:57.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:35:25.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAALgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:32:09.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Result.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Result.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Result.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Result.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:07:54.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ServicePrice.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\ServicePrice.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\BangGia\\ServicePrice.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\ServicePrice.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\BangGia\\ServicePrice.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:30:51.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T12:08:33.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Upload.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Upload.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Upload.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:35:08.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Slider.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Slider.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Slider.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Home\\Slider.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Slider.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwEEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:07:53.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Price.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\Price.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\BangGia\\Price.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\BangGia\\Price.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\BangGia\\Price.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T12:08:09.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "VoteRent.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\VoteRent.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\VoteRent.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\VoteRent.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\VoteRent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:30:43.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:30:09.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAuwCcAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:28:42.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Infrastructure.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Infrastructure.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Infrastructure.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Infrastructure.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\Infrastructure.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:28:38.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "BangGiaController.cs",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\BangGiaController.cs",
+              "RelativeDocumentMoniker": "QLTT\\Controllers\\Home\\BangGiaController.cs",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Controllers\\Home\\BangGiaController.cs",
+              "RelativeToolTip": "QLTT\\Controllers\\Home\\BangGiaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T18:08:48.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "EditVoteRent.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\EditVoteRent.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\EditVoteRent.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\EditVoteRent.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\EditVoteRent.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAADwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:28:12.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Customer.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Customer.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Account\\Customer.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Views\\Account\\Customer.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Account\\Customer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:20:20.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:03:35.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:03:30.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Edit.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T18:00:05.75Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 85,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Create.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:16:11.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Details.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:15:52.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:16:05.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\PhieuDatSan\\Edit.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAADoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:47:53.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\NhanVien\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:59:57.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:16:53.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Add.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:16:47.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\LoaiSan\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:31:25.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAE8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:19:06.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\KhachHang\\Details.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T17:18:50.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ResultExtend.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\ResultExtend.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:47:26.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Details.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:38:17.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:33:50.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Edit.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:30:36.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Result.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T08:47:18.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
+              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\DichVu\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T16:15:55.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Delete.cshtml",
               "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Delete.cshtml",
@@ -1449,30 +1622,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-15T16:08:02.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAIUAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:47:12.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "DetailBill.cshtml",
-              "DocumentMoniker": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
-              "ToolTip": "C:\\Users\\dowif\\Documents\\GitHub\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\HoaDon\\DetailBill.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T08:46:50.888Z"
             }
           ]
         }

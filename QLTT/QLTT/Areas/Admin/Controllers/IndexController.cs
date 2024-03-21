@@ -18,7 +18,7 @@ namespace QLTT.Areas.Admin.Controllers
         public ActionResult Index()
         {
             int so_san_trong = 0, so_san_sd = 0, so_san_don = 0;
-            var listSans = db.Sans.Where(t => t.maTinhTrang < 5).Include(t => t.LoaiSan1)
+            var listSans = db.Sans.Where(t => t.maTinhTrang < 5).Include(t => t.LoaiSan)
                      .Include(t => t.TinhTrangSan)
                      .Include(t => t.PhieuThueSans) // Đảm bảo rằng bạn đã thêm dòng này
                      .ToList();
@@ -99,7 +99,7 @@ namespace QLTT.Areas.Admin.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             int ma_hd = db.HoaDonTS.Where(u => u.PhieuThueSan.maSan == id && u.maTinhTrang == 1).First().maHDTS;
-            return RedirectToAction("Pay", "Bill", new { id = ma_hd });
+            return RedirectToAction("Pay", "HoaDon", new { id = ma_hd });
         }
         public ActionResult FindBill2(int? id)
         {
@@ -108,7 +108,7 @@ namespace QLTT.Areas.Admin.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             int ma_hd = db.HoaDonTS.Where(u => u.PhieuThueSan.maSan == id && u.maTinhTrang == 1).First().maHDTS;
-            return RedirectToAction("CallService", "Bill", new { id = ma_hd });
+            return RedirectToAction("CallService", "HoaDon", new { id = ma_hd });
         }
         public ActionResult CleanInfrastructure(int? id)
         {

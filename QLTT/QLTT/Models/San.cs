@@ -22,10 +22,10 @@ namespace QLTT.Models
     
         public int maSan { get; set; }
         public string maSoSan { get; set; }
-        public Nullable<int> LoaiSan { get; set; }
+        public Nullable<int> Loai_San { get; set; }
         public Nullable<int> maTinhTrang { get; set; }
     
-        public virtual LoaiSan LoaiSan1 { get; set; }
+        public virtual LoaiSan LoaiSan { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PhieuThueSan> PhieuThueSans { get; set; }
         public virtual TinhTrangSan TinhTrangSan { get; set; }

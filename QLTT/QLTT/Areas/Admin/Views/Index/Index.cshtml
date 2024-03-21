@@ -58,11 +58,11 @@
                         <tr>
                             <td>@item.maSoSan</td>
                             <td>
-                                @if (item.LoaiSan1 != null)
+                                @if (item.LoaiSan != null)
                                 {
-                                    @item.LoaiSan1.moTa
+                                    @item.LoaiSan.moTa
                                     <br />
-                                    @String.Format("{0} / giờ", item.LoaiSan1.giaThue)
+                                    @String.Format("{0} / giờ", item.LoaiSan.giaThue)
                                 }
                                 else
                                 {

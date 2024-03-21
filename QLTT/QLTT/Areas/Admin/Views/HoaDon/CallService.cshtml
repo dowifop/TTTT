@@ -68,7 +68,7 @@
                     <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
-                                @using (@Html.BeginForm("XacNhanGoiDichVu", "Bill"))
+                                @using (@Html.BeginForm("ConfirmService", "HoaDon"))
                                 {
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">Chọn số lượng</h5>
@@ -157,7 +157,7 @@
 <div class="modal fade" id="modeledit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            @using (@Html.BeginForm("EditService", "Bill"))
+            @using (@Html.BeginForm("EditService", "HoaDon"))
             {
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Chọn số lượng</h5>
@@ -184,7 +184,7 @@
 <div class="modal fade" id="modeldelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            @using (@Html.BeginForm("DeleteService", "Bill"))
+            @using (@Html.BeginForm("DeleteService", "HoaDon"))
             {
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Bạn có thực sự muốn xóa</h5>

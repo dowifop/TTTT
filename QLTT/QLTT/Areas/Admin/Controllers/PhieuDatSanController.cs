@@ -115,7 +115,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             db.PhieuThueSans.Add(phieuThueSan);
             db.SaveChanges();
             int ma = phieuThueSan.maPT;
-            return RedirectToAction("Add", "Bill", new { id = ma });        
+            return RedirectToAction("Add", "HoaDon", new { id = ma });        
         }
 
        

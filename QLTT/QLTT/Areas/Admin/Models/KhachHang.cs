@@ -13,6 +13,7 @@ namespace QLTT.Areas.Admin.Models
         public String sdtKH { get; set; }
         public KhachHangKH()
         {
+
         }
         public KhachHangKH(String hotenKH, String emailKH)
         {

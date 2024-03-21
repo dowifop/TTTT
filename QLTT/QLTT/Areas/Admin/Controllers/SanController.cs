@@ -14,14 +14,14 @@ namespace QLTT.Areas.Admin.Controllers.Admin
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
 
-     
+
         public ActionResult Index()
         {
-            var Sans = db.Sans.Where(t => t.maTinhTrang < 5).Include(t => t.LoaiSan1).Include(t => t.TinhTrangSan);
+            var Sans = db.Sans.Where(t => t.maTinhTrang < 5).Include(t => t.LoaiSan).Include(t => t.TinhTrangSan);
             return View(Sans.ToList());
         }
 
-     
+
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -45,9 +45,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View();
         }
 
-        // POST: Phong/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
@@ -59,12 +57,12 @@ namespace QLTT.Areas.Admin.Controllers.Admin
                 return RedirectToAction("Index");
             }
 
-            ViewBag.Loai_San = new SelectList(db.LoaiSans, "Loai_San", "moTa", san.LoaiSan1);
+            ViewBag.Loai_San = new SelectList(db.LoaiSans, "Loai_San", "moTa", san.Loai_San);
             ViewBag.maTinhTrang = new SelectList(db.TinhTrangSans, "maTinhTrang", "mota", san.maTinhTrang);
             return View(san);
         }
 
-    
+
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -76,14 +74,12 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             {
                 return HttpNotFound();
             }
-            ViewBag.Loai_San = new SelectList(db.LoaiSans, "Loai_San", "moTa", san.LoaiSan1);
+            ViewBag.Loai_San = new SelectList(db.LoaiSans, "Loai_San", "moTa", san.Loai_San);
             ViewBag.maTinhTrang = new SelectList(db.TinhTrangSans, "maTinhTrang", "mota", san.maTinhTrang);
             return View(san);
         }
 
-        // POST: Phong/EditService/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
@@ -94,12 +90,12 @@ namespace QLTT.Areas.Admin.Controllers.Admin
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.loai_san = new SelectList(db.LoaiSans, "Loai_San", "moTa", san.LoaiSan1);
+            ViewBag.loai_san = new SelectList(db.LoaiSans, "Loai_San", "moTa", san.Loai_San);
             ViewBag.maTinhTrang = new SelectList(db.TinhTrangSans, "maTinhTrang", "mota", san.maTinhTrang);
             return View(san);
         }
 
-        // GET: Phong/DeleteService/5
+ 
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -114,7 +110,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             return View(san);
         }
 
-        // POST: Phong/DeleteService/5
+     
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
