@@ -292,6 +292,8 @@
     <Compile Include="Areas\Admin\Controllers\PhieuDatSanController.cs" />
     <Compile Include="Areas\Admin\Controllers\SanController.cs" />
     <Compile Include="Areas\Admin\Models\KhachHang.cs" />
+    <Compile Include="CodeFile1.cs" />
+    <Compile Include="Composite.cs" />
     <Compile Include="Controllers\Home\AccountController.cs" />
     <Compile Include="Controllers\Home\BangGiaController.cs" />
     <Compile Include="Controllers\Home\HomeController.cs" />

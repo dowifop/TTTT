@@ -11,6 +11,7 @@ using System.Web.Mvc;
 using Newtonsoft.Json;
 using QLTT.Areas.Admin.Models;
 using QLTT.Models;
+using Test;
 
 namespace QLTT.Areas.Admin.Controllers.Admin
 {
@@ -235,8 +236,16 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             int soGioThue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;
             DateTime dateS = new DateTime(ngayThue.Year, ngayThue.Month, ngayThue.Day, 12, 0, 0);
             int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan1.giaThue;
-            var tienSan = soGioThue * gia;
-            ViewBag.tienSan = tienSan;
+
+            // Tạo component cơ bản cho tiền sân
+            ITinhTien tienSan = new TienSan(soGioThue, gia);
+
+            // Áp dụng VAT cho tiền sân
+            tienSan = new VATDecorator(tienSan);
+
+            // Lấy và hiển thị tiền sân sau VAT
+            var tienSanSauVAT = tienSan.TinhTien();
+            ViewBag.tienSan = tienSanSauVAT;
             ViewBag.soGioThue = soGioThue;
 
             NhanVien nv = (NhanVien)Session["NV"];
@@ -254,9 +263,13 @@ namespace QLTT.Areas.Admin.Controllers.Admin
                 tongtiendv += t;
                 tt.Add(t);
             }
+            // Tạo component cơ bản cho tiền dịch vụ
+            ITinhTien tienDichVu = new TienDichVu(tongtiendv);
+
             ViewBag.list_tt = tt;
             ViewBag.tiendichvu = tongtiendv;
-            ViewBag.tongTien = tienSan + tongtiendv;
+            double tongTien = tienSanSauVAT + tienDichVu.TinhTien();
+            ViewBag.tongTien = tongTien;
             return View(tblHoaDon);
         }
         public ActionResult CallService(int? id)
