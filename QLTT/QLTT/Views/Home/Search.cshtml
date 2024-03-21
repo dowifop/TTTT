@@ -75,20 +75,20 @@
                         <tr>
                             <td>
 
-                                @if (item.LoaiSan1 != null && !string.IsNullOrEmpty(item.LoaiSan1.anh))
+                                @if (item.LoaiSan != null && !string.IsNullOrEmpty(item.LoaiSan.anh))
                                 {
                                     // Giả sử chuỗi anh là một đường dẫn hợp lệ và không phải là JSON
-                                    <img src="@Url.Content(item.LoaiSan1.anh)" height="120px" />
+                                    <img src="@Url.Content(item.LoaiSan.anh)" height="120px" />
                                 }
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.maSoSan)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.LoaiSan1.moTa)
+                                @Html.DisplayFor(modelItem => item.LoaiSan.moTa)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.LoaiSan1.giaThue)
+                                @Html.DisplayFor(modelItem => item.LoaiSan.giaThue)
                             </td>
                             <td>
 

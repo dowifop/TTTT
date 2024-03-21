@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\qltt\\areas\\admin\\views\\san\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\san\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\thong\\onedrive\\m\u00E1y t\u00EDnh\\tttt\\qltt\\qltt\\areas\\admin\\views\\san\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\san\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\thong\\onedrive\\m\u00E1y t\u00EDnh\\tttt\\qltt\\qltt\\areas\\admin\\views\\san\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\san\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\thong\\onedrive\\m\u00E1y t\u00EDnh\\tttt\\qltt\\qltt\\areas\\admin\\views\\san\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\san\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\thong\\onedrive\\m\u00E1y t\u00EDnh\\tttt\\qltt\\qltt\\areas\\admin\\views\\san\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\areas\\admin\\views\\san\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|c:\\users\\thong\\onedrive\\m\u00E1y t\u00EDnh\\tttt\\qltt\\qltt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26A999F6-CCC7-4A93-BD51-EAC9D95F78B2}|QLTT\\QLTT.csproj|solutionrelative:qltt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,67 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Edit.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-21T16:19:14.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Delete.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-21T16:19:04.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "ToolTip": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Create.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAADwvyMAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-21T16:18:49.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "ToolTip": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Details.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-21T16:08:07.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "ToolTip": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "RelativeToolTip": "QLTT\\Areas\\Admin\\Views\\San\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAWwD8AAAAdAAAA",
+              "DocumentMoniker": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\thong\\OneDrive\\M\u00E1y t\u00EDnh\\TTTT\\QLTT\\QLTT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLTT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-21T15:56:26.389Z",
+              "WhenOpened": "2024-03-21T16:28:26.319Z",
               "EditorCaption": ""
             }
           ]
