@@ -103,9 +103,6 @@ public class SanController : Controller
         return View();
     }
 
-    // POST: Phong/Create
-    // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-    // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
     public ActionResult Create([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
@@ -138,9 +135,6 @@ public class SanController : Controller
         return View(san);
     }
 
-    // POST: Phong/EditService/5
-    // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-    // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
     public ActionResult Edit([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
@@ -156,7 +150,6 @@ public class SanController : Controller
         return View(san);
     }
 
-    // GET: Phong/DeleteService/5
     public ActionResult Delete(int? id)
     {
         if (id == null)
@@ -171,7 +164,6 @@ public class SanController : Controller
         return View(san);
     }
 
-    // POST: Phong/DeleteService/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public ActionResult DeleteConfirmed(int id)
