@@ -37,7 +37,6 @@ namespace QLTT.Areas.Admin.Controllers
             var clientComposite = new ClientComponent(khachHang);
             var composite = new BookingInfoComposite { maKH = khachHang.maKH };
             composite.Add(clientComposite);
-
             return View(composite);
         }
 

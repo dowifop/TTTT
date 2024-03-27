@@ -6,6 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Composite;
+using QLTT.Areas.Admin.Models;
 using QLTT.Models;
 
 namespace QLTT.Areas.Admin.Controllers.Admin
@@ -33,7 +35,12 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             {
                 return HttpNotFound();
             }
-            return View(san);
+            //return View(san);
+
+            var clientComposite = new SanComponent(san);
+            var composite = new BookingInfoComposite { maSan = san.maSan };
+            composite.Add(clientComposite);
+            return View(composite);
         }
 
 
@@ -128,7 +135,6 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             }
             catch
             {
-
             }
             return RedirectToAction("Index");
         }

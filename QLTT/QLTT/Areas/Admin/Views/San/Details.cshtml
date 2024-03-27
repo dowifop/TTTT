@@ -1,40 +1,12 @@
-﻿@model QLTT.Models.San
+﻿@model Composite.BookingInfoComposite
 @{
     ViewBag.Title = "Details";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
 <h2>Details</h2>
-
 <div>
-    <h4>San</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.maSoSan)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.maSoSan)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.LoaiSan1.moTa)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LoaiSan1.moTa)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TinhTrangSan.mota)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TinhTrangSan.mota)
-        </dd>
-
-    </dl>
+    @Html.Raw(Model.GetHtml())
 </div>
 <p>
     @Html.ActionLink("Xem", "Edit", new { id = Model.maSan }) |

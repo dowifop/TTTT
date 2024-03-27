@@ -68,7 +68,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             var bookingComposite = new BookingInfoComposite { maPT = phieuThueSan.maPT };
 
             // Thêm thông tin khách hàng
-            bookingComposite.Add(new CustomerComponent(phieuThueSan.KhachHang));
+            //bookingComposite.Add(new CustomerComponent(phieuThueSan.KhachHang));
 
             // Thêm thông tin sân
             bookingComposite.Add(new FieldComponent(phieuThueSan.San));
