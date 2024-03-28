@@ -99,9 +99,10 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
 
 
+     
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(String radSelect, [Bind(Include = "maPT,maKH,soGioThue,NgayThue,NgayDat,maSan,maTinhTrang")] PhieuThueSan phieuThueSan, [Bind(Include = "hoTenKH,diaChiKH,emailKH,sdtKH")] KhachHangKH kh,  List<int> maSan, string maKH, DateTime ngayThue, DateTime ngayDat, int soGioThue)
+        public ActionResult Create(String radSelect, [Bind(Include = "maPT,maKH,soGioThue,NgayThue,NgayDat,maSan,maTinhTrang")] PhieuThueSan phieuThueSan, [Bind(Include = "hoTenKH,diaChiKH,emailKH,sdtKH")] KhachHangKH kh)
         {
             System.Diagnostics.Debug.WriteLine("SS :" + radSelect);
             if (radSelect.Equals("rad2"))
@@ -113,12 +114,14 @@ namespace QLTT.Areas.Admin.Controllers.Admin
                 phieuThueSan.thong_tin_khach_hang_thue = ttkh;
             }
 
-            var rentCommand = new RentFieldCommand(db, maSan, maKH, ngayThue, ngayDat, soGioThue);
-            var commandInvoker = new CommandInvoker();
-            commandInvoker.SetCommand(rentCommand);
-            commandInvoker.Invoke();
+            phieuThueSan.maTinhTrang = 1;
+            phieuThueSan.NgayThue = DateTime.Now;
+            phieuThueSan.NgayDat = DateTime.Now;
+            db.PhieuThueSans.Add(phieuThueSan);
+            db.SaveChanges();
             int ma = phieuThueSan.maPT;
             return RedirectToAction("Add", "HoaDon", new { id = ma });
+
         }
 
        
