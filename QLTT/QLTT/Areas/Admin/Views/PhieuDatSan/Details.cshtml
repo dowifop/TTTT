@@ -1,4 +1,4 @@
-﻿@model QLTT.Models.PhieuThueSan
+﻿@model Test.Composite.BookingInfoComposite
 @{
     ViewBag.Title = "Details";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
@@ -13,58 +13,9 @@
 
 <div>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayName("Tên khách hàng")
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.KhachHang.hoTenKH)
-        </dd>
-
-        <dt>
-            @Html.DisplayName("Ngày đặt")
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.NgayDat)
-        </dd>
-
-        <dt>
-            @Html.DisplayName("Ngày thuê")
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.NgayThue)
-        </dd>
-
-
-        <dt>
-            @Html.DisplayName("Số giờ thuê")
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.soGioThue)
-        </dd>
-
-
-        <dt>
-            @Html.DisplayName("Mã số sân")
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.San.maSoSan)
-        </dd>
-
-        <dt>
-            @Html.DisplayName("Tình trạng")
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.tinhTrangPT.tinhTrang)
-        </dd>
-
-    </dl>
+    <div>
+        @Html.Raw(Model.GetHtml())
+    </div>
 </div>
 <p>
     @Html.ActionLink("Sửa", "Edit", new { id = Model.maPT }) |

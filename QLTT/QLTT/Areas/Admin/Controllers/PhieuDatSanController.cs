@@ -9,7 +9,9 @@ using System.Web.Mvc;
 using Newtonsoft.Json;
 using QLTT.Areas.Admin.Models;
 using QLTT.Command;
+using QLTT.Composite;
 using QLTT.Models;
+using Test.Composite;
 
 
 namespace QLTT.Areas.Admin.Controllers.Admin
@@ -62,7 +64,20 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             {
                 return HttpNotFound();
             }
-            return View(phieuThueSan);
+            ///return View(phieuThueSan);
+            ///
+
+            var bookingComposite = new BookingInfoComposite { maPT = phieuThueSan.maPT };
+
+            // Thêm thông tin khách hàng
+            bookingComposite.Add(new CustomerComponent(phieuThueSan.KhachHang));
+
+            // Thêm thông tin sân
+            bookingComposite.Add(new FieldComponent(phieuThueSan.San));
+
+            // Bạn có thể thêm các component khác như dịch vụ, nhân viên...
+
+            return View(bookingComposite);
         }
 
     

@@ -6,7 +6,9 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using QLTT.Composite;
 using QLTT.Models;
+using Test.Composite;
 
 namespace QLTT.Areas.Admin.Controllers.Admin
 {
@@ -33,7 +35,13 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             {
                 return HttpNotFound();
             }
-            return View(tblNhanVien);
+            //return View(tblNhanVien);
+
+            var employeeInfo = new EmployeeComponent(tblNhanVien);
+            var composite = new BookingInfoComposite { maNV = tblNhanVien.maNV };
+            composite.Add(employeeInfo);
+            // Thêm các thông tin khác vào composite nếu cần
+            return View(composite); // Sử dụng composite như mô hình dữ liệu cho view
         }
 
         // GET: NhanVien/Create

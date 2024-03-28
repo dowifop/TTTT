@@ -1,4 +1,4 @@
-﻿﻿@model QLTT.Models.KhachHang
+﻿@model Test.Composite.BookingInfoComposite
 
 @{
     ViewBag.Title = "Details";
@@ -11,48 +11,7 @@
     <li class="breadcrumb-item active">Chi tiết khách hàng</li>
 </ol>
 <div>
-    <dl class="dl-horizontal">
-        <dt>
-            Tài khoản
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.maKH)
-        </dd>
-
-        <dt>
-            Họ tên
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.hoTenKH)
-        </dd>
-
-        <dt>
-            Email
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.emailKH)
-        </dd>
-
-        <dt>
-            Số ĐT
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.sdtKH)
-        </dd>
-
-        <dt>
-            Địa chỉ
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.diaChiKH)
-        </dd>
-
-    </dl>
+    @Html.Raw(Model.GetHtml())
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.maKH }) |

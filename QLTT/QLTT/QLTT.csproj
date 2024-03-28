@@ -335,6 +335,12 @@
     <Compile Include="Command\EditRentFeildCommand.cs" />
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\RentFieldCommand.cs" />
+    <Compile Include="Composite\BookingInfoComposite.cs" />
+    <Compile Include="Composite\ClientComponent.cs" />
+    <Compile Include="Composite\CustomerComponent.cs" />
+    <Compile Include="Composite\EmployeeComponent.cs" />
+    <Compile Include="Composite\FieldComponent.cs" />
+    <Compile Include="Composite\ICatalogComponent.cs" />
     <Compile Include="Controllers\Home\AccountController.cs" />
     <Compile Include="Controllers\Home\BangGiaController.cs" />
     <Compile Include="Controllers\Home\HomeController.cs" />

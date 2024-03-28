@@ -1,4 +1,5 @@
-﻿using QLTT.Models;
+﻿using QLTT.Composite;
+using QLTT.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Test.Composite;
 
 
 namespace QLTT.Areas.Admin.Controllers
@@ -32,7 +34,14 @@ namespace QLTT.Areas.Admin.Controllers
             {
                 return HttpNotFound();
             }
-            return View(khachHang);
+            //return View(khachHang);
+
+            //return View(khachHang);
+            var clientComposite = new ClientComponent(khachHang);
+            var composite = new BookingInfoComposite { maKH = khachHang.maKH };
+            composite.Add(clientComposite);
+
+            return View(composite);
         }
 
      
