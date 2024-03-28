@@ -12,7 +12,7 @@ namespace QLTT.Areas.Admin.Controllers.Admin
 {
     public class SanController : Controller
     {
-        private QlyTheThaoEntities db = new QlyTheThaoEntities();
+        /*private QlyTheThaoEntities db = new QlyTheThaoEntities();*/
 
 
         public ActionResult Index()
