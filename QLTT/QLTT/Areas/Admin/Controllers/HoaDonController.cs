@@ -10,6 +10,7 @@ using System.Web;
 using System.Web.Mvc;
 using Newtonsoft.Json;
 using QLTT.Areas.Admin.Models;
+using QLTT.Areas.Admin.Strategy;
 using QLTT.Models;
 
 namespace QLTT.Areas.Admin.Controllers.Admin
@@ -17,6 +18,13 @@ namespace QLTT.Areas.Admin.Controllers.Admin
     public class HoaDonController : Controller
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
+        private readonly HoaDonContext _sancontext;
+        private readonly HoaDonContext _dichVuContext;
+        public HoaDonController()
+        {
+            _sancontext = new HoaDonContext();
+            _dichVuContext = new HoaDonContext();
+        }
 
         // GET: Bill
         public ActionResult Index()
@@ -234,8 +242,10 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             DateTime ngayThue = (DateTime)tblHoaDon.PhieuThueSan.NgayThue;
             int soGioThue = tblHoaDon.PhieuThueSan.soGioThue ?? 0;
             DateTime dateS = new DateTime(ngayThue.Year, ngayThue.Month, ngayThue.Day, 12, 0, 0);
-            int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan.giaThue;
-            var tienSan = soGioThue * gia;
+            //int gia = (int)tblHoaDon.PhieuThueSan.San.LoaiSan.giaThue;
+            //var tienSan = soGioThue * gia;
+            _sancontext.SetStrategy(new TienSanStrategies());
+            double tienSan = _sancontext.ExecuteStrategy(tblHoaDon);
             ViewBag.tienSan = tienSan;
             ViewBag.soGioThue = soGioThue;
 
@@ -244,19 +254,33 @@ namespace QLTT.Areas.Admin.Controllers.Admin
             {
                 ViewBag.hotenNV = nv.hotenNV;
             }
+            //List<DichVuDaDat> dsdv = db.DichVuDaDats.Where(u => u.maHDTS == id).ToList();
+            //ViewBag.list_dv = dsdv;
+            //double tongtiendv = 0;
+            //List<double> tt = new List<double>();
+            //foreach (var item in dsdv)
+            //{
+            //    double t = (double)(item.so_luong * item.DichVu.gia);
+            //    tongtiendv += t;
+            //    tt.Add(t);
+            //}
+            //ViewBag.list_tt = tt;
+            //ViewBag.tiendichvu = tongtiendv;
+            //ViewBag.tongTien = tienSan + tongtiendv;
+            //return View(tblHoaDon);
+            double tongtiendv = _dichVuContext.ExecuteStrategy(tblHoaDon);
+
+            // Thiết lập ViewBag cho việc hiển thị
+            ViewBag.tienSan = tienSan;
+            ViewBag.soGioThue = soGioThue;
+            ViewBag.hotenNV = nv?.hotenNV;
+
+            // Danh sách dịch vụ đã đặt và tổng tiền dịch vụ
             List<DichVuDaDat> dsdv = db.DichVuDaDats.Where(u => u.maHDTS == id).ToList();
             ViewBag.list_dv = dsdv;
-            double tongtiendv = 0;
-            List<double> tt = new List<double>();
-            foreach (var item in dsdv)
-            {
-                double t = (double)(item.so_luong * item.DichVu.gia);
-                tongtiendv += t;
-                tt.Add(t);
-            }
-            ViewBag.list_tt = tt;
             ViewBag.tiendichvu = tongtiendv;
             ViewBag.tongTien = tienSan + tongtiendv;
+
             return View(tblHoaDon);
         }
         public ActionResult CallService(int? id)

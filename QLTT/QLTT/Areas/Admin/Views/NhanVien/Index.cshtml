@@ -74,16 +74,12 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.ChucVu.tenCV)
                             </td>
-                            @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
-
-                            {
                                 <td>
                                     @Html.ActionLink("Sửa", "edit", new { id = item.maNV }) |
                                     @Html.ActionLink("Chi Tiết", "details", new { id = item.maNV }) |
                                     @Html.ActionLink("Xóa", "Delete", new { id = item.maNV })
 
                                 </td>
-                            }
                         </tr>
                     }
                 </tbody>

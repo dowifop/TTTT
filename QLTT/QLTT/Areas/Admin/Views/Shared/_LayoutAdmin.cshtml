@@ -35,18 +35,18 @@
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-             
-                @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
-                {
-                    <li class="nav-item nav-item-g" data-toggle="tooltip" data-placement="right" title="Charts">
-                        <a class="nav-link" href="@Url.Action("Index", "HoaDon")">
-                            <i class="fa fa-fw fa-area-chart"></i>
-                            <span class="nav-link-text">Danh sách hóa đơn</span>
-                        </a>
-                    </li>
-                }
+
+                @*@if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)*@
+                @*{*@
+                <li class="nav-item nav-item-g" data-toggle="tooltip" data-placement="right" title="Charts">
+                    <a class="nav-link" href="@Url.Action("Index", "HoaDon")">
+                        <i class="fa fa-fw fa-area-chart"></i>
+                        <span class="nav-link-text">Danh sách hóa đơn</span>
+                    </a>
+                </li>
+                @*}*@
                 <li class="nav-item nav-item-g" data-toggle="tooltip" data-placement="right" title="Tables">
-                    <a class="nav-link" href="@Url.Action("ChooseRent", "Index")">
+                    <a class="nav-link" href="@Url.Action("ChonCachDatSan", "Index")">
                         <i class="fa fa-fw fa-server"></i>
                         <span class="nav-link-text">Đặt Sân</span>
                     </a>
@@ -57,7 +57,7 @@
                         <span class="nav-link-text">Danh Sách Cơ sở vật chất</span>
                     </a>
                 </li>
- 
+
                 <li class="nav-item nav-item-g" data-toggle="tooltip" data-placement="right" title="Components">
                     <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
                         <i class="fa fa-fw fa-home"></i>
@@ -66,10 +66,10 @@
                     <ul class="sidenav-second-level collapse" id="collapseComponents">
 
                         <li>
-                            <a class="nav-link" href="@Url.Action("ListOfActive", "Index")">Hủy thuê</a>
+                            <a class="nav-link" href="@Url.Action("ListSanDangHoatDong", "Index")">Hủy thuê</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="@Url.Action("ListOfServiceCalled", "Index")">Chọn dịch vụ</a>
+                            <a class="nav-link" href="@Url.Action("DSSanGoiDV", "Index")">Chọn dịch vụ</a>
                         </li>
                     </ul>
                 </li>
@@ -82,45 +82,44 @@
                         <li>
                             <a class="nav-link" href="@Url.Action("Index", "PhieuDatSan")">Phiếu Thuê</a>
                         </li>
-                        @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 1)
-                        {
-                            <li>
-                                <a href="@Url.Action("Index", "NhanVien")">Nhân viên</a>
-                            </li>
+                        @*@if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 1)
+                            {*@
+                        <li>
+                            <a href="@Url.Action("Index", "NhanVienProxy")">Nhân viên</a>
+                        </li>
 
-                            <li>
-                                <a href="@Url.Action("Index", "KhachHang")">Khách Hàng</a>
-                            </li>
-                        }
+                        <li>
+                            <a href="@Url.Action("Index", "KhachHangProxy")">Khách Hàng</a>
+                        </li>
+                        @*}*@
+                    </ul>
+                </li>
+                @*@if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
+                    {*@
+                <li class="nav-item nav-item-g" data-toggle="tooltip" data-placement="right" title="Example Pages">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
+                        <i class="fa fa-fw fa-wrench"></i>
+
+                        <span class="nav-link-text">Tùy Chỉnh</span>
+                    </a>
+                    <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+                        <li>
+
+                        <li>
+                            <a class="nav-link" href="@Url.Action("Index", "DichVuProxy")">Dịch Vụ</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="@Url.Action("Index", "SanProxy")">Cơ sở vật chất</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="@Url.Action("Index", "LoaiSanProxy")">Loại Cơ sở vật chất </a>
+                        </li>
 
                     </ul>
                 </li>
-                @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
-                {
-                    <li class="nav-item nav-item-g" data-toggle="tooltip" data-placement="right" title="Example Pages">
-                        <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
-                            <i class="fa fa-fw fa-wrench"></i>
+                @*}*@
 
-                            <span class="nav-link-text">Tùy Chỉnh</span>
-                        </a>
-                        <ul class="sidenav-second-level collapse" id="collapseExamplePages">
-                            <li>
 
-                            <li>
-                                <a class="nav-link" href="@Url.Action("Index", "DichVu")">Dịch Vụ</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="@Url.Action("Index", "San")">Cơ sở vật chất</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="@Url.Action("Index", "LoaiSan")">Loại Cơ sở vật chất </a>
-                            </li>
-                           
-                        </ul>
-                    </li>
-                }
-
-              
             </ul>
             <ul class="navbar-nav sidenav-toggler">
                 <li class="nav-item">
@@ -144,45 +143,47 @@
                     <div class="dropdown-menu g-dropdown" aria-labelledby="messagesDropdown">
                         <h6 class="dropdown-header">Tin nhắn mới:</h6>
                         @{
-        QLTT.Models.QlyTheThaoEntities db = new QLTT.Models.QlyTheThaoEntities();
-        List<QLTT.Models.TinNhan> dstn = (List<QLTT.Models.TinNhan>)db.TinNhans.OrderByDescending(t=>t.ngay_gui).Take(5).ToList();
-        foreach (var item in dstn)
-        {
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">
-                        <strong>@if (item.ma_kh == null) {
-                            @item.ho_ten
+                            QLTT.Models.QlyTheThaoEntities db = new QLTT.Models.QlyTheThaoEntities();
+                            List<QLTT.Models.TinNhan> dstn = (List<QLTT.Models.TinNhan>)db.TinNhans.OrderByDescending(t => t.ngay_gui).Take(5).ToList();
+                            foreach (var item in dstn)
+                            {
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <strong>
+                                        @if (item.ma_kh == null)
+                                        {
+                                            @item.ho_ten
+                                        }
+                                        else
+                                        {
+                                            @item.KhachHang.hoTenKH;
+                                        }
+
+                                </strong>
+                                <span class="small float-right text-muted">@item.ngay_gui</span>
+
+                                <div class="dropdown-message small">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <i>
+                                        @if (item.ma_kh == null)
+                                        {
+                                            @item.mail
+                                        }
+                                        else
+                                        {
+                                            @item.KhachHang.emailKH
+                                        }
+                                    </i>
+                                    <br />
+                                    @item.noi_dung
+                                    <br />
+
+                            </a>
                         }
-                        else
-                        {
-                            @item.KhachHang.hoTenKH;
                         }
 
-                        </strong>
-                        <span class="small float-right text-muted">@item.ngay_gui</span>
-                        
-                        <div class="dropdown-message small">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            <i>
-                                @if (item.ma_kh == null)
-                                {
-                                    @item.mail
-                                }
-                                else
-                                {
-                                    @item.KhachHang.emailKH
-                                }
-                        </i>
-                        <br />
-                        @item.noi_dung
-                        <br />
-                       
-                    </a>
-}
-                        }
 
 
-                       
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -200,15 +201,15 @@
                         <h6 class="dropdown-header">Thông Báo</h6>
 
 
-                      
 
 
-                       
+
+
                     </div>
                 </li>
-               
-               @{if (Session["NV"] != null)
-                   {
+
+                @{if (Session["NV"] != null)
+                    {
                         QLTT.Models.NhanVien nv = (QLTT.Models.NhanVien)Session["NV"];
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -220,10 +221,11 @@
                                 </h6>
                                 <div class="dropdown-divider"></div>
                                 <h6 class="dropdown-header">
-                                    <a href="@Url.Action("Employee","Index")"><i class="fa fa-user"></i> Cá Nhân</a></h6>
-                                    <div class="dropdown-divider"></div>
-                                    <a data-toggle="modal" data-target="#exampleModal" class="dropdown-item small" href="#"><i class="fa fa-fw fa-sign-out"></i>Đăng Xuất</a>
-</div>
+                                    <a href="@Url.Action("CaNhan","Index")"><i class="fa fa-user"></i> Cá Nhân</a>
+                                </h6>
+                                <div class="dropdown-divider"></div>
+                                <a data-toggle="modal" data-target="#exampleModal" class="dropdown-item small" href="#"><i class="fa fa-fw fa-sign-out"></i>Đăng Xuất</a>
+                            </div>
                         </li>
                     }
                 }

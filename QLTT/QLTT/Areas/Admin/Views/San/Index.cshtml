@@ -55,13 +55,10 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.LoaiSan.moTa)
                             </td>
-                            @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
-                            {
                                 <td>
                                     @Html.ActionLink("Sửa", "edit", new { id = item.maSan }) |
                                     @Html.ActionLink("Xóa", "Delete", new { id = item.maSan })
                                 </td>
-                            }
                         </tr>
                     }
                 </tbody>

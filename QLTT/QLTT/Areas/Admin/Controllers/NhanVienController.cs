@@ -6,11 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using QLTT.Areas.Admin.Proxy;
 using QLTT.Models;
 
 namespace QLTT.Areas.Admin.Controllers.Admin
 {
-    public class NhanVienController : Controller
+    public class NhanVienController : Controller,INhanVienController
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
 
@@ -46,9 +47,9 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         // POST: NhanVien/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost,ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "maNV,hoTenNV,emailNV,sdtNV,diaChiNV,dobNV,taiKhoan,matKhau,maPH,maCV,maSK")] NhanVien tblNhanVien)
+        public ActionResult CreateConfirmed([Bind(Include = "maNV,hoTenNV,emailNV,sdtNV,diaChiNV,dobNV,taiKhoan,matKhau,maPH,maCV,maSK")] NhanVien tblNhanVien)
         {
             if (ModelState.IsValid)
             {
@@ -84,9 +85,9 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         // POST: NhanVien/EditService/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost,ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "maNV,hoTenNV,emailNV,sdtNV,diaChiNV,dobNV,taiKhoan,matKhau,maPH,maCV,maSK")] NhanVien tblNhanVien)
+        public ActionResult EditConfirmed([Bind(Include = "maNV,hoTenNV,emailNV,sdtNV,diaChiNV,dobNV,taiKhoan,matKhau,maPH,maCV,maSK")] NhanVien tblNhanVien)
         {
             if (ModelState.IsValid)
             {

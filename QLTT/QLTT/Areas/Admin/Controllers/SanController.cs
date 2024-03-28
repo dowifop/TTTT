@@ -6,11 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using QLTT.Areas.Admin.Proxy;
 using QLTT.Models;
 
 namespace QLTT.Areas.Admin.Controllers.Admin
 {
-    public class SanController : Controller
+    public class SanController : Controller,ISanController
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
 
@@ -46,9 +47,9 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
 
       
-        [HttpPost]
+        [HttpPost, ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
+        public ActionResult CreateConfirmed([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
         {
             if (ModelState.IsValid)
             {
@@ -80,9 +81,9 @@ namespace QLTT.Areas.Admin.Controllers.Admin
         }
 
 
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
+        public ActionResult EditConfirmed([Bind(Include = "maSan,maSoSan,Loai_San,maTinhTrang")] San san)
         {
             if (ModelState.IsValid)
             {

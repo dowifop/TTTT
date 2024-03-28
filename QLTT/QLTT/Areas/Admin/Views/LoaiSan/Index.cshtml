@@ -50,14 +50,10 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.giaThue)
                             </td>
-                           
-                            @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
-                            {
                                 <td>
                                     @Html.ActionLink("Sửa", "edit", new { id = item.Loai_San }) |
                                     @Html.ActionLink("Xóa", "delete", new { id = item.Loai_San })
                                 </td>
-                            }
                         </tr>
                     }
                 </tbody>

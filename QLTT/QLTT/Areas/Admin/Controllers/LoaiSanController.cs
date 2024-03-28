@@ -1,4 +1,5 @@
-﻿using QLTT.Models;
+﻿using QLTT.Areas.Admin.Proxy;
+using QLTT.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,7 +12,7 @@ using System.Web.Mvc;
 
 namespace QLTT.Areas.Admin.Controllers
 {
-    public class LoaiSanController : Controller
+    public class LoaiSanController : Controller,ILoaiSanController
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
       
@@ -38,9 +39,9 @@ namespace QLTT.Areas.Admin.Controllers
         {
             return View();
         }    
-        [HttpPost]
+        [HttpPost, ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "moTa,giaThue,anh")] LoaiSan loaiSan)
+        public ActionResult CreateConfirmed([Bind(Include = "moTa,giaThue,anh")] LoaiSan loaiSan)
         {
             if (ModelState.IsValid)
             {
@@ -66,9 +67,9 @@ namespace QLTT.Areas.Admin.Controllers
             }
             return View(tblLoaiPhong);
         }      
-        [HttpPost]
+        [HttpPost,ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Loai_San,mota,giaThue,anh")] LoaiSan loaiSan)
+        public ActionResult EditConfirmed([Bind(Include = "Loai_San,mota,giaThue,anh")] LoaiSan loaiSan)
         {
             if (ModelState.IsValid)
             {

@@ -1,4 +1,4 @@
-﻿use master
+﻿﻿use master;
 if exists (select*from sysdatabases where name = 'QlyTheThao')
 drop database QlyTheThao
 go 
@@ -113,11 +113,11 @@ CREATE TABLE San
 (
   maSan INT IDENTITY(1,1) NOT NULL,
   maSoSan char(10)  NULL,
-  LoaiSan INT NULL,
+  Loai_San INT NULL,
   maTinhTrang INT NULL,
   PRIMARY KEY (maSan),
   FOREIGN KEY (maTinhTrang) REFERENCES TinhTrangSan(maTinhTrang),
-  FOREIGN KEY (LoaiSan) REFERENCES LoaiSan(Loai_San)
+  FOREIGN KEY (Loai_San) REFERENCES LoaiSan(Loai_San)
 );
 
 CREATE TABLE PhieuThueSan
@@ -207,8 +207,8 @@ insert into tinhTrangHD values (N'Chưa thanh toán')
 insert into tinhTrangHD values (N'Đã thanh toán')
 
 insert into LoaiSan values(N'Sân bóng đá', 120000, '/Content/Home/hinh/bgsan.png')
-insert into LoaiSan values(N'Hồ bơi', 50000, '/Content/Home/hình/bghoboi.png')
-insert into LoaiSan values(N'Nhà thi đấu', 200000, '/Content/Home/hình/bgnhathidau.png')
+insert into LoaiSan values(N'Hồ bơi', 50000, '/Content/Home/hinh/bghoboi.png')
+insert into LoaiSan values(N'Nhà thi đấu', 200000, '/Content/Home/hinh/bgnhathidau.png')
 
 
 insert into San values('BD01', 1,1)

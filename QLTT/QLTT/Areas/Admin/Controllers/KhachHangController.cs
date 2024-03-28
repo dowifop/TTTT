@@ -1,4 +1,5 @@
-﻿using QLTT.Models;
+﻿using QLTT.Areas.Admin.Proxy;
+using QLTT.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,7 +12,7 @@ using System.Web.Mvc;
 
 namespace QLTT.Areas.Admin.Controllers
 {
-    public class KhachHangController : Controller
+    public class KhachHangController : Controller,IKhachHangController
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
         // GET: KhachHang
@@ -44,9 +45,9 @@ namespace QLTT.Areas.Admin.Controllers
         // POST: KhachHang/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost,ActionName("Add")]
         [ValidateAntiForgeryToken]
-        public ActionResult Add([Bind(Include = "maKH,matKhau,hoTenKH,diaChiKH,sdtKH,emailKH")] KhachHang tblKhachHang)
+        public ActionResult AddConfirmed([Bind(Include = "maKH,matKhau,hoTenKH,diaChiKH,sdtKH,emailKH")] KhachHang tblKhachHang)
         {
             if (ModelState.IsValid)
             {
@@ -83,9 +84,9 @@ namespace QLTT.Areas.Admin.Controllers
         // POST: KhachHang/EditService/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost,ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "maKH,matKhau,hoTenKH,diaChiKH,sdtKH,emailKH")] KhachHang tblKhachHang)
+        public ActionResult EditConfirmed([Bind(Include = "maKH,matKhau,hoTenKH,diaChiKH,sdtKH,emailKH")] KhachHang tblKhachHang)
         {
             if (ModelState.IsValid)
             {

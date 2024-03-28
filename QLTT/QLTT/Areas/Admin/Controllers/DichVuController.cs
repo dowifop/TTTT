@@ -7,11 +7,12 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using QLTT.Areas.Admin.Proxy;
 using QLTT.Models;
 
 namespace QLTT.Areas.Admin.Controllers
 {
-    public class DichVuController : Controller
+    public class DichVuController : Controller, IDichVuController
     {
         private QlyTheThaoEntities db = new QlyTheThaoEntities();
 
@@ -20,7 +21,6 @@ namespace QLTT.Areas.Admin.Controllers
         {
             return View(db.DichVus.ToList());
         }
-
         // GET: DichVu/Details/5
         public ActionResult Details(int? id)
         {
@@ -45,9 +45,9 @@ namespace QLTT.Areas.Admin.Controllers
         // POST: DichVu/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost, ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(HttpPostedFileBase file, [Bind(Include = "ma_dv,ten_dv,gia,ton_kho")] DichVu dichVu)
+        public ActionResult CreateConfirmed(HttpPostedFileBase file, [Bind(Include = "ma_dv,ten_dv,gia,ton_kho")] DichVu dichVu)
         {
             if (ModelState.IsValid)
             {
@@ -96,9 +96,9 @@ namespace QLTT.Areas.Admin.Controllers
         // POST: DichVu/EditService/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(HttpPostedFileBase file, [Bind(Include = "ma_dv,ten_dv,gia,ton_kho")] DichVu dichVu)
+        public ActionResult EditConfirmed(HttpPostedFileBase file, [Bind(Include = "ma_dv,ten_dv,gia,ton_kho")] DichVu dichVu)
         {
             DichVu dv = db.DichVus.Find(dichVu.ma_dv);
             if (ModelState.IsValid)
@@ -173,6 +173,5 @@ namespace QLTT.Areas.Admin.Controllers
             }
             base.Dispose(disposing);
         }
-    
-}
+    }
 }
