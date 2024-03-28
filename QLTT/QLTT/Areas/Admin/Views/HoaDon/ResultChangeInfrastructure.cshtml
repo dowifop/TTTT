@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Result";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Admin</a>
+    </li>
+    <li class="breadcrumb-item active">Kết quả</li>
+</ol>
+@{
+    if (ViewBag.result == "success")
+    {
+        <div class="alert alert-success" role="alert">
+            <h2 style="color:#3c763d">Đổi sân thành công.</h2>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger" role="alert">Có lỗi trong quá trình đổi sân ! @ViewBag.result</div>
+    }
+    <a href="@Url.Action("ListOfActive","Index")">Back to list</a>
+}
+

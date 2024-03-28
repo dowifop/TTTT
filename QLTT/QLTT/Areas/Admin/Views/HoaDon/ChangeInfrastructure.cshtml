@@ -1,0 +1,44 @@
+﻿@model QLTT.Models.PhieuThueSan
+
+@{
+    ViewBag.Title = "Gia Hạn Sân";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Admin</a>
+    </li>
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("ListOfActive","Admin")">Sân đang hoạt động</a>
+    </li>
+    <li class="breadcrumb-item active">Đổi sân @Model.San.maSoSan</li>
+</ol>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> Đổi sân @Model.San.maSoSan
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("ResultChangeInfrastructure", "HoaDon"))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.maPT)
+            <div class="form-group">
+                @Html.Label("Đổi từ sân", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBox("maSanCu", Model.San.maSan, htmlAttributes: new { @class = "form-control", @readonly = "readonly" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Chuyển sang sân", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("maSanMoi", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.maSan, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-success">Xác nhận</button>
+            </div>
+        }
+    </div>
+</div>

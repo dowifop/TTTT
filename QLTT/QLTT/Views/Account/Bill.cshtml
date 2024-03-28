@@ -1,0 +1,127 @@
+﻿@model IEnumerable<QLTT.Models.HoaDonT>
+
+@{
+    ViewBag.Title = "Danh sách hóa đơn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header id="gtco-header" class="gtco-cover gtco-cover-md g-header" role="banner" style="background-image: url(/Content/Home/images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+</header>
+<div class="container">
+    <br /><br /><br /><br />
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Danh sách hóa đơn</h3>
+        </div>
+        <div class="panel-body">
+            <table class="table table-bordered" id="dataTable" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Mã hóa đơn
+                        </th>
+                        <th>
+                            Số Sân
+                        </th>
+                        <th>
+                            Ngày Thuê
+                        </th>
+                        <th>
+                            Số giờ thuê 
+                        </th>
+                        <th>
+                            Tiền Sân
+                        </th>
+                        <th>
+                            Tiền dịch vụ
+                        </th>
+
+                        <th>
+                            Tổng tiền
+                        </th>
+                        <th>
+                            Tình trạng
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        if (item.maTinhTrang == 2)
+                        {
+                            <tr class="alert-success">
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.maHDTS)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PhieuThueSan.San.maSoSan)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PhieuThueSan.NgayThue)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PhieuThueSan.soGioThue)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tienSan)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tiendichvu)
+                                </td>                        
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tongTien)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tinhTrangHD.mo_ta)
+                                </td>
+                                <td>
+                                    @*@Html.ActionLink("Edit", "Edit", new { id = item.ma_hd }) |
+                                        @Html.ActionLink("Details", "Details", new { id = item.ma_hd }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.ma_hd })*@
+                                    @Html.ActionLink("Chi tiết", "DetailsBill", new { id = item.maHDTS })
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.maHDTS)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PhieuThueSan.San.maSoSan)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PhieuThueSan.NgayThue)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PhieuThueSan.soGioThue)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tienSan)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tiendichvu)
+                                </td>                            
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tongTien)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tinhTrangHD.mo_ta)
+                                </td>
+                                <td>
+                                    @*@Html.ActionLink("Edit", "Edit", new { id = item.ma_hd }) |
+                                        @Html.ActionLink("Details", "Details", new { id = item.ma_hd }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.ma_hd })*@
+                                    @Html.ActionLink("Chi tiết", "DetailsBill", new { id = item.maHDTS })
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

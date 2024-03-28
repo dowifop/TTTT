@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Trả Sân";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using QLTT.Models
+@model List<HoaDonT>
+
+<!-- SSS -->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Quản Lý</a>
+    </li>
+    <li class="breadcrumb-item active">Trả Sân</li>
+</ol>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> Danh sách Sân đang sử dụng
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+
+            <!-- /SSS -->
+            <table class="table table-bordered table-striped table-hover" id="dataTable" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>SS</th>
+                        <th>Loại Sân</th>
+                        <th>Ngày thuê</th>
+                        <th>Số giờ thuê</th>
+                        <th>Tình trạng</th>
+                        <th>Lựa Chọn</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>SS</th>
+                        <th>Loại Sân</th>
+                        <th>Ngày thuê</th>
+                        <th>Số giờ thuê</th>
+                        <th>Tình trạng</th>
+                        <th>Lựa Chọn</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                            <td>@item.PhieuThueSan.San.maSoSan</td>
+                            <td>@item.PhieuThueSan.San.LoaiSan.moTa</td>
+                            <td>@item.PhieuThueSan.NgayThue.Value.ToShortDateString()</td>
+                            <td>@item.PhieuThueSan.soGioThue</td>
+                            <td><span class="badge badge-danger badge-g">@item.PhieuThueSan.San.TinhTrangSan.mota</span></td>
+                            <td>
+                                <a href="@Url.Action("Pay","HoaDon",new { id = item.maHDTS})"><div class="btn btn-danger badge-g">Trả Sân</div></a>
+                                <a href="@Url.Action("Extend","HoaDon",new { id = item.maHDTS})"><div class="btn btn-info badge-g">Gia Hạn</div></a>
+                                <a href="@Url.Action("ChangeInfrastructure","HoaDon",new { id = item.maHDTS})"><div class="btn btn-secondary badge-g">Đổi sân</div></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted">Updated yesterday at ... PM</div>
+</div>

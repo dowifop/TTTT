@@ -1,0 +1,68 @@
+﻿@model IEnumerable<QLTT.Models.LoaiSan>
+
+@{
+    ViewBag.Title = "List Sân";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Quản Lý</a>
+    </li>
+    <li class="breadcrumb-item active">Danh sách loại sân</li>
+</ol>
+<p>
+    @Html.ActionLink("Thêm loại sân", "Create")
+</p>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> Danh sách loại sân
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover" id="dataTable" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>
+                            Loại sân
+                        </th>
+                        <th>
+                            Giá
+                        </th>
+                        @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
+                        {
+                            <th></th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <img src="@Html.DisplayFor(modelItem => item.anh)" width="200px" />
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.moTa)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.giaThue)
+                            </td>
+                           
+                            @if (Session["NV"] != null && ((QLTT.Models.NhanVien)Session["NV"]).maCV <= 2)
+                            {
+                                <td>
+                                    @Html.ActionLink("Sửa", "edit", new { id = item.Loai_San }) |
+                                    @Html.ActionLink("Xóa", "delete", new { id = item.Loai_San })
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer small text-muted">Updated yesterday at @DateTime.Now</div>
+</div>

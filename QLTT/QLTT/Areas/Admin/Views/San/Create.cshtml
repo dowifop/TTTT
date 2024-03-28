@@ -1,0 +1,57 @@
+﻿@model QLTT.Models.San
+@{
+    ViewBag.Title = "Thêm sân";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Quản Lý</a>
+    </li>
+    <li class="breadcrumb-item active">@ViewBag.Title</li>
+</ol>
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> @ViewBag.Title
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.Label("Mã số sân", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.maSoSan, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.maSoSan, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.Label("Loại sân", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("Loai_San", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Loai_San, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group hidden">
+                    @Html.LabelFor(model => model.maTinhTrang, "maTinhTrang", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("maTinhTrang", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.maTinhTrang, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Thêm" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Quay Lại", "Index")
+</div>

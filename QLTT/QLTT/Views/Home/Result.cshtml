@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<header id="gtco-header" class="gtco-cover gtco-cover-md g-header" role="banner" style="background-image: url(/Content/Home/images/1.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+</header>
+<div class="container">
+    <br /><br /><br /><h2></h2>
+    @{
+        if (ViewBag.result == "success")
+        {
+            <div class="alert alert-success" role="alert">
+                <h2 style="color:#3c763d">Đã thuê sân thành công.</h2>
+                Cảm ơn bạn đã thuê sân tại Trung tâm.
+            </div>
+           
+        }
+        else
+        {
+            <div class="alert alert-danger" role="alert">Có lỗi trong quá trình thuê sân. Bạn có thể liên hệ nhân viên sân để giải quyết vấn đề !</div>
+        }
+    }
+    <a href="@Url.Action("Index","Home")">Quay lại</a> | <a href="@Url.Action("Rent","Home")">Sân đã đặt</a>
+    <br /><br />
+</div>
+

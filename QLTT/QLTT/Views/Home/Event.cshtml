@@ -1,0 +1,55 @@
+﻿@model List<QLTT.Template.Blog>
+@{
+    ViewBag.Title = "Đặt sự kiện";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<header id="gtco-header" class="gtco-cover gtco-cover-md g-header" role="banner" style="background-image: url(/Content/Home/images/.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+</header>
+<br />
+<br />
+
+<div id="slider"></div>
+
+<script>
+    function clickImg(id) {
+        $.ajax({
+            url: "/Home/Slider/" + id,
+            type: "GET",
+            success: function (data) {
+                $("#slider").html(data);
+            }
+        });
+    }
+</script>
+
+<div class="panel-body">
+    <div class="panel-heading">
+        <h2 class="">Trang đăng kí và đặt sự kiện</h2>
+    </div>
+    <div class="">
+        <h2 style="margin-left:-10px">Chào mừng đến với Trung tâm thể dục thể thao Quận 10</h2>
+        <h3>Luôn tổ chức các hoạt động , sự kiện thể thao nhằm cung cấp cho người dùng những trải nghiệm tốt nhất cho sức khẻo , tinh thần.</h3>
+        <table>
+            @foreach (var blog in Model)
+            {
+                <tr>
+                    <td style="width:50%">
+                        <img src="@Url.Content(blog.Image)" alt="Sự kiện" class="img-gt" style="width:600px">
+                    </td>
+                    <td style="vertical-align:top">
+                        <h2>@blog.Title</h2>
+                        <p>@Html.Raw(blog.Content)</p>
+                    </td>
+                </tr>
+            }
+        </table>
+
+
+    </div>
+</div>
+<div id="ff-compose"></div>
+<script async defer src="https://formfacade.com/include/104158312988457967278/form/1FAIpQLSfk6l_3Ma9FczpFtX9F-9Uexb-mJS2jXGEouPsxR-VjnNmwnw/clean.js?div=ff-compose"></script>
+
+<div id="ff-compose"></div>
+<script async defer src="https://formfacade.com/include/104158312988457967278/form/1FAIpQLSfk6l_3Ma9FczpFtX9F-9Uexb-mJS2jXGEouPsxR-VjnNmwnw/clean.js?div=ff-compose"></script>
